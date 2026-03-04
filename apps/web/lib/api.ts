@@ -1,7 +1,7 @@
 import axios from "axios";
 import type { AnalysisResult, UploadResponse } from "./types";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8002";
+const API_BASE = "";
 
 const api = axios.create({
   baseURL: API_BASE,
