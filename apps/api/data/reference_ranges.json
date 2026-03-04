@@ -1,0 +1,1655 @@
+[
+  {
+    "test_id": "hemoglobin",
+    "name": "Hemoglobin",
+    "category": "CBC",
+    "unit": "g/dL",
+    "male": { "low": 13.5, "high": 17.5 },
+    "female": { "low": 12.0, "high": 16.0 },
+    "critical_low": 7.0,
+    "critical_high": 20.0,
+    "conversions": { "g/L": 0.1 },
+    "plain_language": {
+      "normal": "Your hemoglobin is within the normal range, indicating healthy oxygen-carrying capacity.",
+      "low": "Your hemoglobin is low, which may suggest anemia. Common causes include iron deficiency, chronic disease, or blood loss.",
+      "high": "Your hemoglobin is elevated, which may be related to dehydration, lung disease, or living at high altitude.",
+      "critical_low": "Your hemoglobin is critically low. Immediate medical attention is needed as this may require a blood transfusion.",
+      "critical_high": "Your hemoglobin is critically elevated. Seek immediate medical care to evaluate for polycythemia or other serious conditions."
+    }
+  },
+  {
+    "test_id": "hematocrit",
+    "name": "Hematocrit",
+    "category": "CBC",
+    "unit": "%",
+    "male": { "low": 40.0, "high": 50.0 },
+    "female": { "low": 36.0, "high": 44.0 },
+    "critical_low": 20.0,
+    "critical_high": 60.0,
+    "conversions": { "L/L": 0.01 },
+    "plain_language": {
+      "normal": "Your hematocrit is within the normal range, indicating a healthy proportion of red blood cells.",
+      "low": "Your hematocrit is low, suggesting anemia or fluid overload.",
+      "high": "Your hematocrit is elevated, which may indicate dehydration, polycythemia, or chronic hypoxia.",
+      "critical_low": "Your hematocrit is critically low. Immediate medical attention is required.",
+      "critical_high": "Your hematocrit is critically elevated. Seek immediate care as this increases the risk of blood clots."
+    }
+  },
+  {
+    "test_id": "mcv",
+    "name": "Mean Corpuscular Volume",
+    "category": "CBC",
+    "unit": "fL",
+    "universal": { "low": 80.0, "high": 100.0 },
+    "critical_low": 50.0,
+    "critical_high": 130.0,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your MCV is within the normal range, indicating normal-sized red blood cells.",
+      "low": "Your MCV is low (microcytic), which may suggest iron deficiency anemia or thalassemia.",
+      "high": "Your MCV is elevated (macrocytic), which may suggest vitamin B12 or folate deficiency, or liver disease.",
+      "critical_low": "Your MCV is critically low. Immediate evaluation for severe microcytic anemia is needed.",
+      "critical_high": "Your MCV is critically elevated. Seek medical evaluation for severe macrocytic anemia."
+    }
+  },
+  {
+    "test_id": "mch",
+    "name": "Mean Corpuscular Hemoglobin",
+    "category": "CBC",
+    "unit": "pg",
+    "universal": { "low": 27.0, "high": 33.0 },
+    "critical_low": 15.0,
+    "critical_high": 45.0,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your MCH is within the normal range, indicating normal hemoglobin content per red blood cell.",
+      "low": "Your MCH is low, which may indicate iron deficiency anemia or thalassemia.",
+      "high": "Your MCH is elevated, which may suggest macrocytic anemia from B12 or folate deficiency.",
+      "critical_low": "Your MCH is critically low. Immediate medical evaluation is needed.",
+      "critical_high": "Your MCH is critically elevated. Seek medical evaluation."
+    }
+  },
+  {
+    "test_id": "mchc",
+    "name": "Mean Corpuscular Hemoglobin Concentration",
+    "category": "CBC",
+    "unit": "g/dL",
+    "universal": { "low": 32.0, "high": 36.0 },
+    "critical_low": 25.0,
+    "critical_high": 40.0,
+    "conversions": { "g/L": 0.1 },
+    "plain_language": {
+      "normal": "Your MCHC is within the normal range, indicating normal hemoglobin concentration in red blood cells.",
+      "low": "Your MCHC is low (hypochromic), often seen with iron deficiency anemia.",
+      "high": "Your MCHC is elevated (hyperchromic), which may suggest spherocytosis or hemolytic anemia.",
+      "critical_low": "Your MCHC is critically low. Seek medical evaluation for severe hypochromic anemia.",
+      "critical_high": "Your MCHC is critically elevated. Immediate medical evaluation is needed."
+    }
+  },
+  {
+    "test_id": "rdw",
+    "name": "Red Cell Distribution Width",
+    "category": "CBC",
+    "unit": "%",
+    "universal": { "low": 11.5, "high": 14.5 },
+    "critical_low": null,
+    "critical_high": 25.0,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your RDW is within the normal range, indicating uniform red blood cell size.",
+      "low": "Your RDW is low, which is generally not clinically significant.",
+      "high": "Your RDW is elevated, indicating variation in red blood cell size (anisocytosis). This may suggest iron deficiency, B12/folate deficiency, or mixed anemias.",
+      "critical_low": null,
+      "critical_high": "Your RDW is critically elevated. Seek medical evaluation for significant red blood cell abnormalities."
+    }
+  },
+  {
+    "test_id": "wbc",
+    "name": "White Blood Cell Count",
+    "category": "CBC",
+    "unit": "x10^3/uL",
+    "universal": { "low": 4.5, "high": 11.0 },
+    "critical_low": 2.0,
+    "critical_high": 30.0,
+    "conversions": { "x10^9/L": 1.0 },
+    "plain_language": {
+      "normal": "Your white blood cell count is within the normal range, indicating a healthy immune system.",
+      "low": "Your WBC count is low (leukopenia), which may increase infection risk. Causes include viral infections, bone marrow disorders, or medications.",
+      "high": "Your WBC count is elevated (leukocytosis), which commonly indicates infection, inflammation, or stress.",
+      "critical_low": "Your WBC count is critically low. Immediate medical attention is needed due to severe infection risk.",
+      "critical_high": "Your WBC count is critically elevated. Seek immediate medical care to evaluate for severe infection or leukemia."
+    }
+  },
+  {
+    "test_id": "neutrophils",
+    "name": "Neutrophils (Absolute)",
+    "category": "CBC",
+    "unit": "x10^3/uL",
+    "universal": { "low": 1.8, "high": 7.7 },
+    "critical_low": 0.5,
+    "critical_high": 20.0,
+    "conversions": { "x10^9/L": 1.0 },
+    "plain_language": {
+      "normal": "Your neutrophil count is within the normal range.",
+      "low": "Your neutrophil count is low (neutropenia), which increases your risk of bacterial infections.",
+      "high": "Your neutrophil count is elevated (neutrophilia), often indicating bacterial infection, inflammation, or stress.",
+      "critical_low": "Your neutrophil count is critically low (severe neutropenia). Immediate medical attention is needed due to high infection risk.",
+      "critical_high": "Your neutrophil count is critically elevated. Seek immediate medical evaluation."
+    }
+  },
+  {
+    "test_id": "lymphocytes",
+    "name": "Lymphocytes (Absolute)",
+    "category": "CBC",
+    "unit": "x10^3/uL",
+    "universal": { "low": 1.0, "high": 4.8 },
+    "critical_low": 0.5,
+    "critical_high": 15.0,
+    "conversions": { "x10^9/L": 1.0 },
+    "plain_language": {
+      "normal": "Your lymphocyte count is within the normal range.",
+      "low": "Your lymphocyte count is low (lymphopenia), which may be related to viral infection, immune disorders, or corticosteroid use.",
+      "high": "Your lymphocyte count is elevated (lymphocytosis), which may suggest viral infection, chronic lymphocytic leukemia, or other conditions.",
+      "critical_low": "Your lymphocyte count is critically low. Immediate medical evaluation is needed for severe immunodeficiency.",
+      "critical_high": "Your lymphocyte count is critically elevated. Seek immediate medical evaluation."
+    }
+  },
+  {
+    "test_id": "platelets",
+    "name": "Platelet Count",
+    "category": "CBC",
+    "unit": "x10^3/uL",
+    "universal": { "low": 150.0, "high": 400.0 },
+    "critical_low": 50.0,
+    "critical_high": 1000.0,
+    "conversions": { "x10^9/L": 1.0 },
+    "plain_language": {
+      "normal": "Your platelet count is within the normal range, supporting normal blood clotting.",
+      "low": "Your platelet count is low (thrombocytopenia), which may increase bleeding risk. Causes include infections, medications, or immune conditions.",
+      "high": "Your platelet count is elevated (thrombocytosis), which may be reactive or related to a bone marrow disorder.",
+      "critical_low": "Your platelet count is critically low. Immediate medical attention is needed due to serious bleeding risk.",
+      "critical_high": "Your platelet count is critically elevated. Seek immediate care due to increased risk of clotting or bleeding complications."
+    }
+  },
+  {
+    "test_id": "reticulocyte_count",
+    "name": "Reticulocyte Count",
+    "category": "CBC",
+    "unit": "%",
+    "universal": { "low": 0.5, "high": 2.5 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your reticulocyte count is within the normal range, indicating normal red blood cell production by the bone marrow.",
+      "low": "Your reticulocyte count is low, suggesting decreased bone marrow red blood cell production. This may indicate aplastic anemia, nutritional deficiency, or bone marrow suppression.",
+      "high": "Your reticulocyte count is elevated, indicating the bone marrow is producing red blood cells at an increased rate. This may be a response to blood loss or hemolytic anemia.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "ferritin",
+    "name": "Ferritin",
+    "category": "Iron Studies",
+    "unit": "ng/mL",
+    "male": { "low": 24.0, "high": 336.0 },
+    "female": { "low": 11.0, "high": 307.0 },
+    "critical_low": 5.0,
+    "critical_high": 1000.0,
+    "conversions": { "ug/L": 1.0, "pmol/L": 0.4444 },
+    "plain_language": {
+      "normal": "Your ferritin is within the normal range, indicating adequate iron stores.",
+      "low": "Your ferritin is low, indicating depleted iron stores. This is the earliest marker of iron deficiency.",
+      "high": "Your ferritin is elevated, which may indicate iron overload, inflammation, liver disease, or infection.",
+      "critical_low": "Your ferritin is critically low, indicating severe iron deficiency. Seek medical attention for evaluation and treatment.",
+      "critical_high": "Your ferritin is critically elevated. Seek immediate medical evaluation to rule out hemochromatosis or other serious conditions."
+    }
+  },
+  {
+    "test_id": "serum_iron",
+    "name": "Serum Iron",
+    "category": "Iron Studies",
+    "unit": "ug/dL",
+    "male": { "low": 65.0, "high": 175.0 },
+    "female": { "low": 50.0, "high": 170.0 },
+    "critical_low": 30.0,
+    "critical_high": 300.0,
+    "conversions": { "umol/L": 0.1791 },
+    "plain_language": {
+      "normal": "Your serum iron is within the normal range.",
+      "low": "Your serum iron is low, which may indicate iron deficiency, chronic disease, or inadequate dietary intake.",
+      "high": "Your serum iron is elevated, which may suggest iron overload, hemochromatosis, or excessive supplementation.",
+      "critical_low": "Your serum iron is critically low. Immediate medical evaluation is recommended.",
+      "critical_high": "Your serum iron is critically elevated. Seek immediate medical attention to evaluate for iron toxicity."
+    }
+  },
+  {
+    "test_id": "tibc",
+    "name": "Total Iron-Binding Capacity",
+    "category": "Iron Studies",
+    "unit": "ug/dL",
+    "universal": { "low": 250.0, "high": 400.0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": { "umol/L": 0.1791 },
+    "plain_language": {
+      "normal": "Your TIBC is within the normal range.",
+      "low": "Your TIBC is low, which may indicate iron overload, chronic inflammation, liver disease, or malnutrition.",
+      "high": "Your TIBC is elevated, which is commonly seen in iron deficiency anemia as the body attempts to absorb more iron.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "transferrin_saturation",
+    "name": "Transferrin Saturation",
+    "category": "Iron Studies",
+    "unit": "%",
+    "male": { "low": 20.0, "high": 50.0 },
+    "female": { "low": 15.0, "high": 50.0 },
+    "critical_low": 5.0,
+    "critical_high": 80.0,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your transferrin saturation is within the normal range, indicating balanced iron transport.",
+      "low": "Your transferrin saturation is low, suggesting iron deficiency or anemia of chronic disease.",
+      "high": "Your transferrin saturation is elevated, which may suggest iron overload or hemochromatosis.",
+      "critical_low": "Your transferrin saturation is critically low. Seek medical evaluation for severe iron deficiency.",
+      "critical_high": "Your transferrin saturation is critically elevated. Immediate evaluation for iron overload is needed."
+    }
+  },
+  {
+    "test_id": "vitamin_b12",
+    "name": "Vitamin B12",
+    "category": "Vitamins",
+    "unit": "pg/mL",
+    "universal": { "low": 200.0, "high": 900.0 },
+    "critical_low": 100.0,
+    "critical_high": null,
+    "conversions": { "pmol/L": 0.7378 },
+    "plain_language": {
+      "normal": "Your vitamin B12 level is within the normal range.",
+      "low": "Your vitamin B12 is low, which can cause anemia, neurological symptoms, and fatigue. Common in vegetarians/vegans and those with malabsorption.",
+      "high": "Your vitamin B12 is elevated. While usually not harmful, very high levels may warrant investigation for liver disease or myeloproliferative disorders.",
+      "critical_low": "Your vitamin B12 is critically low. Immediate medical attention is needed to prevent irreversible neurological damage.",
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "folate",
+    "name": "Folate (Folic Acid)",
+    "category": "Vitamins",
+    "unit": "ng/mL",
+    "universal": { "low": 2.7, "high": 17.0 },
+    "critical_low": 1.0,
+    "critical_high": null,
+    "conversions": { "nmol/L": 2.266 },
+    "plain_language": {
+      "normal": "Your folate level is within the normal range.",
+      "low": "Your folate is low, which may cause macrocytic anemia, fatigue, and is particularly concerning during pregnancy due to neural tube defect risk.",
+      "high": "Your folate level is elevated. This is generally not harmful and is usually due to supplementation or diet.",
+      "critical_low": "Your folate is critically low. Seek medical attention for evaluation and supplementation.",
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "vitamin_d",
+    "name": "Vitamin D (25-Hydroxyvitamin D)",
+    "category": "Vitamins",
+    "unit": "ng/mL",
+    "universal": { "low": 30.0, "high": 100.0 },
+    "critical_low": 10.0,
+    "critical_high": 100.0,
+    "conversions": { "nmol/L": 2.496 },
+    "plain_language": {
+      "normal": "Your vitamin D level is within the normal range, supporting healthy bones and immune function.",
+      "low": "Your vitamin D is low (insufficiency/deficiency), which may affect bone health, immune function, and mood. Supplementation is often recommended.",
+      "high": "Your vitamin D is elevated, which is usually due to excessive supplementation. Very high levels can cause toxicity.",
+      "critical_low": "Your vitamin D is critically low (severe deficiency). Seek medical attention. This may cause bone pain, muscle weakness, and increased fracture risk.",
+      "critical_high": "Your vitamin D is critically elevated (toxicity range). Seek immediate medical attention as this can cause dangerous calcium elevation."
+    }
+  },
+  {
+    "test_id": "creatinine",
+    "name": "Creatinine",
+    "category": "RFT",
+    "unit": "mg/dL",
+    "male": { "low": 0.7, "high": 1.3 },
+    "female": { "low": 0.6, "high": 1.1 },
+    "critical_low": 0.3,
+    "critical_high": 10.0,
+    "conversions": { "umol/L": 0.0113 },
+    "plain_language": {
+      "normal": "Your creatinine is within the normal range, indicating healthy kidney function.",
+      "low": "Your creatinine is low, which may indicate reduced muscle mass or advanced liver disease.",
+      "high": "Your creatinine is elevated, which may suggest impaired kidney function, dehydration, or high protein diet.",
+      "critical_low": "Your creatinine is critically low. Medical evaluation may be warranted.",
+      "critical_high": "Your creatinine is critically elevated. Immediate medical attention is needed as this indicates severe kidney impairment."
+    }
+  },
+  {
+    "test_id": "bun",
+    "name": "Blood Urea Nitrogen",
+    "category": "RFT",
+    "unit": "mg/dL",
+    "universal": { "low": 7.0, "high": 20.0 },
+    "critical_low": 2.0,
+    "critical_high": 100.0,
+    "conversions": { "mmol/L": 0.357 },
+    "plain_language": {
+      "normal": "Your BUN is within the normal range, indicating healthy kidney function and protein metabolism.",
+      "low": "Your BUN is low, which may indicate malnutrition, liver disease, or overhydration.",
+      "high": "Your BUN is elevated, which may suggest kidney dysfunction, dehydration, high protein diet, or gastrointestinal bleeding.",
+      "critical_low": "Your BUN is critically low. Medical evaluation is recommended.",
+      "critical_high": "Your BUN is critically elevated. Seek immediate medical attention for possible kidney failure."
+    }
+  },
+  {
+    "test_id": "egfr",
+    "name": "Estimated Glomerular Filtration Rate",
+    "category": "RFT",
+    "unit": "mL/min/1.73m2",
+    "universal": { "low": 90.0, "high": 120.0 },
+    "critical_low": 15.0,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your eGFR is within the normal range, indicating healthy kidney filtration.",
+      "low": "Your eGFR is reduced, indicating some degree of kidney impairment. The lower the value, the more significant the impairment (60-89: mild, 30-59: moderate, 15-29: severe).",
+      "high": "Your eGFR is above the typical range. This is generally not a concern.",
+      "critical_low": "Your eGFR is critically low (below 15), indicating kidney failure. Immediate nephrology consultation is needed. Dialysis may be required.",
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urine_albumin_cr_ratio",
+    "name": "Urine Albumin-to-Creatinine Ratio",
+    "category": "RFT",
+    "unit": "mg/g",
+    "universal": { "low": 0.0, "high": 30.0 },
+    "critical_low": null,
+    "critical_high": 300.0,
+    "conversions": { "mg/mmol": 0.113 },
+    "plain_language": {
+      "normal": "Your urine albumin-to-creatinine ratio is normal, indicating no significant protein leakage by the kidneys.",
+      "low": "Your urine albumin-to-creatinine ratio is normal.",
+      "high": "Your urine albumin-to-creatinine ratio is elevated (microalbuminuria: 30-300 mg/g), which may indicate early kidney damage, especially in diabetes or hypertension.",
+      "critical_low": null,
+      "critical_high": "Your urine albumin-to-creatinine ratio is critically elevated (macroalbuminuria), indicating significant kidney damage. Immediate nephrology consultation is recommended."
+    }
+  },
+  {
+    "test_id": "fasting_glucose",
+    "name": "Fasting Glucose",
+    "category": "Diabetes",
+    "unit": "mg/dL",
+    "universal": { "low": 70.0, "high": 99.0 },
+    "critical_low": 40.0,
+    "critical_high": 400.0,
+    "conversions": { "mmol/L": 0.0555 },
+    "plain_language": {
+      "normal": "Your fasting glucose is within the normal range, indicating healthy blood sugar regulation.",
+      "low": "Your fasting glucose is low (hypoglycemia), which may cause shakiness, confusion, and dizziness. Causes include medications, fasting, or insulin overproduction.",
+      "high": "Your fasting glucose is elevated. Values 100-125 mg/dL indicate prediabetes; 126 mg/dL or higher on two occasions indicates diabetes.",
+      "critical_low": "Your fasting glucose is critically low. Immediate treatment is needed to prevent seizures, loss of consciousness, or brain damage.",
+      "critical_high": "Your fasting glucose is critically elevated. Seek immediate medical attention to prevent diabetic ketoacidosis or hyperosmolar syndrome."
+    }
+  },
+  {
+    "test_id": "hba1c",
+    "name": "Hemoglobin A1c",
+    "category": "Diabetes",
+    "unit": "%",
+    "universal": { "low": 4.0, "high": 5.6 },
+    "critical_low": null,
+    "critical_high": 14.0,
+    "conversions": { "mmol/mol": null },
+    "plain_language": {
+      "normal": "Your HbA1c is within the normal range, indicating good average blood sugar control over the past 2-3 months.",
+      "low": "Your HbA1c is low, which is generally not a concern unless associated with frequent hypoglycemia.",
+      "high": "Your HbA1c is elevated. Values of 5.7-6.4% indicate prediabetes; 6.5% or higher indicates diabetes.",
+      "critical_low": null,
+      "critical_high": "Your HbA1c is critically elevated, indicating very poor blood sugar control. Immediate medical intervention is needed to prevent serious complications."
+    }
+  },
+  {
+    "test_id": "fasting_insulin",
+    "name": "Fasting Insulin",
+    "category": "Diabetes",
+    "unit": "uIU/mL",
+    "universal": { "low": 2.6, "high": 24.9 },
+    "critical_low": null,
+    "critical_high": 100.0,
+    "conversions": { "pmol/L": 6.945 },
+    "plain_language": {
+      "normal": "Your fasting insulin is within the normal range, indicating normal insulin production.",
+      "low": "Your fasting insulin is low, which may suggest type 1 diabetes or late-stage type 2 diabetes with beta cell exhaustion.",
+      "high": "Your fasting insulin is elevated (hyperinsulinemia), which often indicates insulin resistance and may precede type 2 diabetes.",
+      "critical_low": null,
+      "critical_high": "Your fasting insulin is critically elevated. Seek medical evaluation for severe insulin resistance or possible insulinoma."
+    }
+  },
+  {
+    "test_id": "c_peptide",
+    "name": "C-Peptide",
+    "category": "Diabetes",
+    "unit": "ng/mL",
+    "universal": { "low": 0.8, "high": 3.1 },
+    "critical_low": 0.1,
+    "critical_high": 10.0,
+    "conversions": { "nmol/L": 0.333 },
+    "plain_language": {
+      "normal": "Your C-peptide is within the normal range, indicating normal insulin production by the pancreas.",
+      "low": "Your C-peptide is low, indicating reduced insulin production. This is commonly seen in type 1 diabetes or advanced type 2 diabetes.",
+      "high": "Your C-peptide is elevated, which may indicate insulin resistance, insulinoma, or Cushing's syndrome.",
+      "critical_low": "Your C-peptide is critically low, indicating minimal pancreatic insulin production. Immediate medical evaluation is needed.",
+      "critical_high": "Your C-peptide is critically elevated. Seek medical evaluation to rule out insulinoma or other pancreatic conditions."
+    }
+  },
+  {
+    "test_id": "tsh",
+    "name": "Thyroid-Stimulating Hormone",
+    "category": "Thyroid",
+    "unit": "mIU/L",
+    "universal": { "low": 0.4, "high": 4.0 },
+    "critical_low": 0.01,
+    "critical_high": 50.0,
+    "conversions": { "uIU/mL": 1.0 },
+    "plain_language": {
+      "normal": "Your TSH is within the normal range, indicating normal thyroid function.",
+      "low": "Your TSH is low, which may indicate hyperthyroidism (overactive thyroid). Symptoms can include weight loss, rapid heartbeat, and anxiety.",
+      "high": "Your TSH is elevated, which may indicate hypothyroidism (underactive thyroid). Symptoms can include fatigue, weight gain, and cold intolerance.",
+      "critical_low": "Your TSH is critically low, suggesting severe hyperthyroidism or thyroid storm risk. Seek immediate medical attention.",
+      "critical_high": "Your TSH is critically elevated, indicating severe hypothyroidism. Immediate medical attention is needed."
+    }
+  },
+  {
+    "test_id": "free_t4",
+    "name": "Free Thyroxine (Free T4)",
+    "category": "Thyroid",
+    "unit": "ng/dL",
+    "universal": { "low": 0.8, "high": 1.8 },
+    "critical_low": 0.3,
+    "critical_high": 5.0,
+    "conversions": { "pmol/L": 12.87 },
+    "plain_language": {
+      "normal": "Your free T4 is within the normal range, indicating adequate thyroid hormone production.",
+      "low": "Your free T4 is low, which may indicate hypothyroidism. This is often seen with elevated TSH.",
+      "high": "Your free T4 is elevated, which may indicate hyperthyroidism. This is often seen with suppressed TSH.",
+      "critical_low": "Your free T4 is critically low. Immediate medical evaluation is needed for severe hypothyroidism or myxedema.",
+      "critical_high": "Your free T4 is critically elevated. Seek immediate medical care as this may indicate thyroid storm."
+    }
+  },
+  {
+    "test_id": "free_t3",
+    "name": "Free Triiodothyronine (Free T3)",
+    "category": "Thyroid",
+    "unit": "pg/mL",
+    "universal": { "low": 2.3, "high": 4.2 },
+    "critical_low": 1.0,
+    "critical_high": 10.0,
+    "conversions": { "pmol/L": 1.536 },
+    "plain_language": {
+      "normal": "Your free T3 is within the normal range, indicating healthy active thyroid hormone levels.",
+      "low": "Your free T3 is low, which may indicate hypothyroidism or euthyroid sick syndrome (seen in serious illness).",
+      "high": "Your free T3 is elevated, which may indicate hyperthyroidism or T3 thyrotoxicosis.",
+      "critical_low": "Your free T3 is critically low. Seek medical evaluation for severe thyroid dysfunction.",
+      "critical_high": "Your free T3 is critically elevated. Immediate medical attention is needed for possible thyroid storm."
+    }
+  },
+  {
+    "test_id": "alt",
+    "name": "Alanine Aminotransferase (ALT)",
+    "category": "LFT",
+    "unit": "U/L",
+    "male": { "low": 7.0, "high": 56.0 },
+    "female": { "low": 7.0, "high": 45.0 },
+    "critical_low": null,
+    "critical_high": 1000.0,
+    "conversions": { "ukat/L": 0.0167 },
+    "plain_language": {
+      "normal": "Your ALT is within the normal range, indicating healthy liver cell function.",
+      "low": "Your ALT is within the lower range, which is normal and not a concern.",
+      "high": "Your ALT is elevated, which may indicate liver cell damage. Common causes include fatty liver disease, hepatitis, medications, or alcohol use.",
+      "critical_low": null,
+      "critical_high": "Your ALT is critically elevated, indicating significant liver damage. Seek immediate medical attention."
+    }
+  },
+  {
+    "test_id": "ast",
+    "name": "Aspartate Aminotransferase (AST)",
+    "category": "LFT",
+    "unit": "U/L",
+    "male": { "low": 10.0, "high": 40.0 },
+    "female": { "low": 9.0, "high": 32.0 },
+    "critical_low": null,
+    "critical_high": 1000.0,
+    "conversions": { "ukat/L": 0.0167 },
+    "plain_language": {
+      "normal": "Your AST is within the normal range.",
+      "low": "Your AST is within the lower range, which is normal.",
+      "high": "Your AST is elevated, which may indicate damage to the liver, heart, or muscles. Common causes include liver disease, heart attack, or strenuous exercise.",
+      "critical_low": null,
+      "critical_high": "Your AST is critically elevated, indicating significant tissue damage. Seek immediate medical attention."
+    }
+  },
+  {
+    "test_id": "alp",
+    "name": "Alkaline Phosphatase (ALP)",
+    "category": "LFT",
+    "unit": "U/L",
+    "universal": { "low": 44.0, "high": 147.0 },
+    "critical_low": null,
+    "critical_high": 1000.0,
+    "conversions": { "ukat/L": 0.0167 },
+    "plain_language": {
+      "normal": "Your ALP is within the normal range.",
+      "low": "Your ALP is low, which may indicate malnutrition, zinc deficiency, or hypothyroidism.",
+      "high": "Your ALP is elevated, which may indicate bile duct obstruction, liver disease, or bone disorders. It is normally higher in growing children and during pregnancy.",
+      "critical_low": null,
+      "critical_high": "Your ALP is critically elevated. Seek immediate medical evaluation for possible bile duct obstruction or severe liver/bone disease."
+    }
+  },
+  {
+    "test_id": "ggt",
+    "name": "Gamma-Glutamyl Transferase (GGT)",
+    "category": "LFT",
+    "unit": "U/L",
+    "male": { "low": 10.0, "high": 47.0 },
+    "female": { "low": 7.0, "high": 32.0 },
+    "critical_low": null,
+    "critical_high": 500.0,
+    "conversions": { "ukat/L": 0.0167 },
+    "plain_language": {
+      "normal": "Your GGT is within the normal range.",
+      "low": "Your GGT is within the lower range, which is normal.",
+      "high": "Your GGT is elevated, which is a sensitive marker for bile duct disease and alcohol use. It may also indicate fatty liver disease or medication effects.",
+      "critical_low": null,
+      "critical_high": "Your GGT is critically elevated. Seek medical evaluation for possible severe bile duct or liver disease."
+    }
+  },
+  {
+    "test_id": "total_bilirubin",
+    "name": "Total Bilirubin",
+    "category": "LFT",
+    "unit": "mg/dL",
+    "universal": { "low": 0.1, "high": 1.2 },
+    "critical_low": null,
+    "critical_high": 12.0,
+    "conversions": { "umol/L": 17.1 },
+    "plain_language": {
+      "normal": "Your total bilirubin is within the normal range.",
+      "low": "Your total bilirubin is within the lower range, which is normal.",
+      "high": "Your total bilirubin is elevated, which may cause jaundice (yellowing of skin/eyes). Causes include liver disease, bile duct obstruction, or increased red blood cell breakdown.",
+      "critical_low": null,
+      "critical_high": "Your total bilirubin is critically elevated. Seek immediate medical attention for severe jaundice and possible liver failure or bile duct obstruction."
+    }
+  },
+  {
+    "test_id": "direct_bilirubin",
+    "name": "Direct Bilirubin (Conjugated)",
+    "category": "LFT",
+    "unit": "mg/dL",
+    "universal": { "low": 0.0, "high": 0.2 },
+    "critical_low": null,
+    "critical_high": 5.0,
+    "conversions": { "umol/L": 17.1 },
+    "plain_language": {
+      "normal": "Your direct bilirubin is within the normal range.",
+      "low": "Your direct bilirubin is within the lower range, which is normal.",
+      "high": "Your direct bilirubin is elevated, suggesting bile duct obstruction, liver disease, or Dubin-Johnson syndrome.",
+      "critical_low": null,
+      "critical_high": "Your direct bilirubin is critically elevated. Seek immediate medical evaluation for possible bile duct obstruction or severe liver disease."
+    }
+  },
+  {
+    "test_id": "albumin",
+    "name": "Albumin",
+    "category": "LFT",
+    "unit": "g/dL",
+    "universal": { "low": 3.5, "high": 5.0 },
+    "critical_low": 1.5,
+    "critical_high": null,
+    "conversions": { "g/L": 0.1 },
+    "plain_language": {
+      "normal": "Your albumin is within the normal range, indicating healthy liver synthetic function and nutritional status.",
+      "low": "Your albumin is low, which may indicate liver disease, kidney disease (nephrotic syndrome), malnutrition, or chronic inflammation.",
+      "high": "Your albumin is mildly elevated, which is usually due to dehydration.",
+      "critical_low": "Your albumin is critically low. Immediate medical attention is needed as this may indicate severe liver disease, malnutrition, or critical illness.",
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "total_cholesterol",
+    "name": "Total Cholesterol",
+    "category": "Lipid",
+    "unit": "mg/dL",
+    "universal": { "low": 0.0, "high": 200.0 },
+    "critical_low": null,
+    "critical_high": 400.0,
+    "conversions": { "mmol/L": 0.0259 },
+    "plain_language": {
+      "normal": "Your total cholesterol is within the desirable range (below 200 mg/dL).",
+      "low": "Your total cholesterol is low. While generally favorable, very low cholesterol may warrant evaluation.",
+      "high": "Your total cholesterol is elevated. Values 200-239 mg/dL are borderline high; 240 mg/dL and above are high. Elevated cholesterol increases cardiovascular risk.",
+      "critical_low": null,
+      "critical_high": "Your total cholesterol is critically elevated. Seek immediate medical evaluation for aggressive lipid management."
+    }
+  },
+  {
+    "test_id": "ldl",
+    "name": "Low-Density Lipoprotein (LDL)",
+    "category": "Lipid",
+    "unit": "mg/dL",
+    "universal": { "low": 0.0, "high": 100.0 },
+    "critical_low": null,
+    "critical_high": 300.0,
+    "conversions": { "mmol/L": 0.0259 },
+    "plain_language": {
+      "normal": "Your LDL cholesterol is within the optimal range (below 100 mg/dL).",
+      "low": "Your LDL cholesterol is low, which is generally considered favorable for cardiovascular health.",
+      "high": "Your LDL cholesterol is elevated. This is a major risk factor for heart disease and stroke. Values 100-129: near optimal; 130-159: borderline high; 160-189: high; 190+: very high.",
+      "critical_low": null,
+      "critical_high": "Your LDL is critically elevated, indicating very high cardiovascular risk. Seek immediate medical evaluation."
+    }
+  },
+  {
+    "test_id": "hdl",
+    "name": "High-Density Lipoprotein (HDL)",
+    "category": "Lipid",
+    "unit": "mg/dL",
+    "male": { "low": 40.0, "high": 100.0 },
+    "female": { "low": 50.0, "high": 100.0 },
+    "critical_low": 15.0,
+    "critical_high": null,
+    "conversions": { "mmol/L": 0.0259 },
+    "plain_language": {
+      "normal": "Your HDL cholesterol is within the healthy range. HDL is 'good' cholesterol that helps remove other cholesterol from your arteries.",
+      "low": "Your HDL cholesterol is low, which is a risk factor for heart disease. Exercise, healthy fats, and weight management can help raise HDL.",
+      "high": "Your HDL cholesterol is elevated, which is generally protective against cardiovascular disease.",
+      "critical_low": "Your HDL is critically low, indicating significantly increased cardiovascular risk. Seek medical evaluation.",
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "triglycerides",
+    "name": "Triglycerides",
+    "category": "Lipid",
+    "unit": "mg/dL",
+    "universal": { "low": 0.0, "high": 150.0 },
+    "critical_low": null,
+    "critical_high": 500.0,
+    "conversions": { "mmol/L": 0.0113 },
+    "plain_language": {
+      "normal": "Your triglycerides are within the normal range (below 150 mg/dL).",
+      "low": "Your triglycerides are low, which is generally not a concern.",
+      "high": "Your triglycerides are elevated. Values 150-199: borderline high; 200-499: high. Elevated triglycerides increase cardiovascular risk and may be related to diet, obesity, or metabolic conditions.",
+      "critical_low": null,
+      "critical_high": "Your triglycerides are critically elevated (500+ mg/dL). Seek immediate medical attention due to high risk of pancreatitis."
+    }
+  },
+  {
+    "test_id": "vldl",
+    "name": "Very Low-Density Lipoprotein (VLDL)",
+    "category": "Lipid",
+    "unit": "mg/dL",
+    "universal": { "low": 0.0, "high": 30.0 },
+    "critical_low": null,
+    "critical_high": 80.0,
+    "conversions": { "mmol/L": 0.0259 },
+    "plain_language": {
+      "normal": "Your VLDL cholesterol is within the normal range.",
+      "low": "Your VLDL cholesterol is low, which is generally not a concern.",
+      "high": "Your VLDL cholesterol is elevated, which contributes to plaque buildup in arteries and increases cardiovascular risk.",
+      "critical_low": null,
+      "critical_high": "Your VLDL is critically elevated. Seek medical evaluation for aggressive lipid management."
+    }
+  },
+  {
+    "test_id": "sodium",
+    "name": "Sodium",
+    "category": "Electrolytes",
+    "unit": "mEq/L",
+    "universal": { "low": 136.0, "high": 145.0 },
+    "critical_low": 120.0,
+    "critical_high": 160.0,
+    "conversions": { "mmol/L": 1.0 },
+    "plain_language": {
+      "normal": "Your sodium level is within the normal range, indicating healthy fluid and electrolyte balance.",
+      "low": "Your sodium is low (hyponatremia), which may cause confusion, nausea, and muscle cramps. Causes include excess water intake, kidney disease, heart failure, or certain medications.",
+      "high": "Your sodium is elevated (hypernatremia), which may indicate dehydration, excessive salt intake, or diabetes insipidus.",
+      "critical_low": "Your sodium is critically low. Seek immediate medical attention as severe hyponatremia can cause seizures and brain swelling.",
+      "critical_high": "Your sodium is critically elevated. Seek immediate medical attention as severe hypernatremia can cause altered mental status and neurological damage."
+    }
+  },
+  {
+    "test_id": "potassium",
+    "name": "Potassium",
+    "category": "Electrolytes",
+    "unit": "mEq/L",
+    "universal": { "low": 3.5, "high": 5.0 },
+    "critical_low": 2.5,
+    "critical_high": 6.5,
+    "conversions": { "mmol/L": 1.0 },
+    "plain_language": {
+      "normal": "Your potassium level is within the normal range, supporting healthy nerve and muscle function.",
+      "low": "Your potassium is low (hypokalemia), which may cause muscle weakness, cramps, and heart rhythm changes. Causes include diuretics, vomiting, or diarrhea.",
+      "high": "Your potassium is elevated (hyperkalemia), which may affect heart rhythm. Causes include kidney disease, certain medications, or tissue injury.",
+      "critical_low": "Your potassium is critically low. Seek immediate medical attention as this can cause life-threatening cardiac arrhythmias.",
+      "critical_high": "Your potassium is critically elevated. Seek immediate medical attention as this can cause fatal cardiac arrhythmias."
+    }
+  },
+  {
+    "test_id": "calcium",
+    "name": "Calcium (Total)",
+    "category": "Electrolytes",
+    "unit": "mg/dL",
+    "universal": { "low": 8.5, "high": 10.5 },
+    "critical_low": 6.0,
+    "critical_high": 13.0,
+    "conversions": { "mmol/L": 0.25 },
+    "plain_language": {
+      "normal": "Your calcium level is within the normal range, supporting healthy bones, muscles, and nerve function.",
+      "low": "Your calcium is low (hypocalcemia), which may cause numbness, tingling, and muscle cramps. Causes include vitamin D deficiency, parathyroid disorders, or kidney disease.",
+      "high": "Your calcium is elevated (hypercalcemia), which may indicate hyperparathyroidism, cancer, or excessive vitamin D/calcium supplementation.",
+      "critical_low": "Your calcium is critically low. Seek immediate medical attention as this can cause seizures and dangerous cardiac arrhythmias.",
+      "critical_high": "Your calcium is critically elevated. Seek immediate medical attention as this can cause cardiac arrhythmias, kidney damage, and coma."
+    }
+  },
+  {
+    "test_id": "magnesium",
+    "name": "Magnesium",
+    "category": "Electrolytes",
+    "unit": "mg/dL",
+    "universal": { "low": 1.7, "high": 2.2 },
+    "critical_low": 1.0,
+    "critical_high": 4.0,
+    "conversions": { "mmol/L": 0.4114 },
+    "plain_language": {
+      "normal": "Your magnesium level is within the normal range, supporting healthy muscle, nerve, and enzyme function.",
+      "low": "Your magnesium is low (hypomagnesemia), which may cause muscle cramps, tremors, and cardiac arrhythmias. Common with alcohol use, diuretics, or malnutrition.",
+      "high": "Your magnesium is elevated (hypermagnesemia), which may be related to kidney disease or excessive supplementation.",
+      "critical_low": "Your magnesium is critically low. Seek immediate medical attention as this can cause dangerous cardiac arrhythmias and seizures.",
+      "critical_high": "Your magnesium is critically elevated. Seek immediate medical attention as this can cause respiratory depression and cardiac arrest."
+    }
+  },
+  {
+    "test_id": "phosphate",
+    "name": "Phosphate (Inorganic Phosphorus)",
+    "category": "Electrolytes",
+    "unit": "mg/dL",
+    "universal": { "low": 2.5, "high": 4.5 },
+    "critical_low": 1.0,
+    "critical_high": 8.0,
+    "conversions": { "mmol/L": 0.3229 },
+    "plain_language": {
+      "normal": "Your phosphate level is within the normal range, supporting healthy bone and energy metabolism.",
+      "low": "Your phosphate is low (hypophosphatemia), which may cause muscle weakness, bone pain, and confusion. Causes include malnutrition, vitamin D deficiency, or refeeding syndrome.",
+      "high": "Your phosphate is elevated (hyperphosphatemia), which is most commonly due to kidney disease. It can contribute to calcium-phosphate deposition and bone disease.",
+      "critical_low": "Your phosphate is critically low. Seek immediate medical attention as severe hypophosphatemia can cause respiratory failure and cardiac dysfunction.",
+      "critical_high": "Your phosphate is critically elevated. Seek immediate medical evaluation for possible kidney failure and risk of dangerous calcium-phosphate precipitation."
+    }
+  },
+  {
+    "test_id": "chloride",
+    "name": "Chloride",
+    "category": "Electrolytes",
+    "unit": "mEq/L",
+    "universal": { "low": 98.0, "high": 106.0 },
+    "critical_low": 80.0,
+    "critical_high": 120.0,
+    "conversions": { "mmol/L": 1.0 },
+    "plain_language": {
+      "normal": "Your chloride level is within the normal range, indicating healthy acid-base and fluid balance.",
+      "low": "Your chloride is low (hypochloremia), which may indicate vomiting, metabolic alkalosis, or excess aldosterone.",
+      "high": "Your chloride is elevated (hyperchloremia), which may indicate dehydration, kidney disease, or metabolic acidosis.",
+      "critical_low": "Your chloride is critically low. Seek immediate medical evaluation for severe electrolyte and acid-base disturbance.",
+      "critical_high": "Your chloride is critically elevated. Seek immediate medical evaluation."
+    }
+  },
+  {
+    "test_id": "bicarbonate",
+    "name": "Bicarbonate (CO2)",
+    "category": "Electrolytes",
+    "unit": "mEq/L",
+    "universal": { "low": 22.0, "high": 29.0 },
+    "critical_low": 10.0,
+    "critical_high": 40.0,
+    "conversions": { "mmol/L": 1.0 },
+    "plain_language": {
+      "normal": "Your bicarbonate level is within the normal range, indicating healthy acid-base balance.",
+      "low": "Your bicarbonate is low, which may indicate metabolic acidosis. Causes include kidney disease, diabetic ketoacidosis, diarrhea, or lactic acidosis.",
+      "high": "Your bicarbonate is elevated, which may indicate metabolic alkalosis. Causes include vomiting, diuretic use, or excessive antacid intake.",
+      "critical_low": "Your bicarbonate is critically low, indicating severe metabolic acidosis. Seek immediate medical attention.",
+      "critical_high": "Your bicarbonate is critically elevated, indicating severe metabolic alkalosis. Seek immediate medical attention."
+    }
+  },
+  {
+    "test_id": "esr",
+    "name": "Erythrocyte Sedimentation Rate (ESR)",
+    "category": "Inflammatory",
+    "unit": "mm/hr",
+    "male": { "low": 0.0, "high": 15.0 },
+    "female": { "low": 0.0, "high": 20.0 },
+    "critical_low": null,
+    "critical_high": 100.0,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your ESR is within the normal range, indicating no significant systemic inflammation.",
+      "low": "Your ESR is within the lower range, which is normal.",
+      "high": "Your ESR is elevated, indicating inflammation somewhere in the body. Causes include infection, autoimmune disease, cancer, or chronic conditions.",
+      "critical_low": null,
+      "critical_high": "Your ESR is critically elevated, suggesting severe inflammation or infection. Immediate medical evaluation is needed."
+    }
+  },
+  {
+    "test_id": "crp",
+    "name": "C-Reactive Protein (CRP)",
+    "category": "Inflammatory",
+    "unit": "mg/L",
+    "universal": { "low": 0.0, "high": 10.0 },
+    "critical_low": null,
+    "critical_high": 100.0,
+    "conversions": { "mg/dL": 10.0 },
+    "plain_language": {
+      "normal": "Your CRP is within the normal range, indicating no significant acute inflammation.",
+      "low": "Your CRP is low, which is normal.",
+      "high": "Your CRP is elevated, indicating acute inflammation or infection. Causes include bacterial infections, autoimmune conditions, and tissue injury.",
+      "critical_low": null,
+      "critical_high": "Your CRP is critically elevated, indicating severe inflammation or serious infection (e.g., sepsis). Seek immediate medical attention."
+    }
+  },
+  {
+    "test_id": "hs_crp",
+    "name": "High-Sensitivity C-Reactive Protein (hs-CRP)",
+    "category": "Inflammatory",
+    "unit": "mg/L",
+    "universal": { "low": 0.0, "high": 1.0 },
+    "critical_low": null,
+    "critical_high": 10.0,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your hs-CRP is in the low risk range (below 1.0 mg/L), indicating low cardiovascular inflammation risk.",
+      "low": "Your hs-CRP is low, indicating minimal cardiovascular inflammation risk.",
+      "high": "Your hs-CRP is elevated. Values 1.0-3.0 mg/L indicate moderate cardiovascular risk; above 3.0 mg/L indicates high risk. Chronic low-grade inflammation is a risk factor for heart disease.",
+      "critical_low": null,
+      "critical_high": "Your hs-CRP is critically elevated (above 10 mg/L), which may indicate acute infection or inflammation rather than chronic cardiovascular risk. Seek medical evaluation."
+    }
+  },
+  {
+    "test_id": "uric_acid",
+    "name": "Uric Acid",
+    "category": "Other",
+    "unit": "mg/dL",
+    "male": { "low": 3.4, "high": 7.0 },
+    "female": { "low": 2.4, "high": 6.0 },
+    "critical_low": null,
+    "critical_high": 12.0,
+    "conversions": { "umol/L": 59.48 },
+    "plain_language": {
+      "normal": "Your uric acid is within the normal range.",
+      "low": "Your uric acid is low, which is generally not clinically significant but may be seen in liver disease or Wilson's disease.",
+      "high": "Your uric acid is elevated (hyperuricemia), which increases the risk of gout and kidney stones. It may also be associated with metabolic syndrome.",
+      "critical_low": null,
+      "critical_high": "Your uric acid is critically elevated. Seek medical attention due to high risk of acute gout, kidney stones, or tumor lysis syndrome."
+    }
+  },
+  {
+    "test_id": "ldh",
+    "name": "Lactate Dehydrogenase (LDH)",
+    "category": "Other",
+    "unit": "U/L",
+    "universal": { "low": 140.0, "high": 280.0 },
+    "critical_low": null,
+    "critical_high": 1000.0,
+    "conversions": { "ukat/L": 0.0167 },
+    "plain_language": {
+      "normal": "Your LDH is within the normal range.",
+      "low": "Your LDH is low, which is generally not clinically significant.",
+      "high": "Your LDH is elevated, indicating tissue damage. LDH is found in many tissues, so elevation may reflect liver disease, hemolysis, heart attack, muscle injury, or certain cancers.",
+      "critical_low": null,
+      "critical_high": "Your LDH is critically elevated, indicating significant tissue damage or destruction. Seek immediate medical evaluation."
+    }
+  },
+  {
+    "test_id": "urine_protein",
+    "name": "Urine Protein",
+    "category": "Urine Analysis",
+    "unit": "qualitative",
+    "universal": { "low": 0, "high": 0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "qualitative": true,
+    "normal_values": ["negative", "trace"],
+    "abnormal_values": ["1+", "2+", "3+", "4+"],
+    "plain_language": {
+      "normal": "No protein detected in urine.",
+      "high": "Protein detected in urine (proteinuria). May indicate kidney damage.",
+      "low": "No protein detected in urine.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urine_glucose",
+    "name": "Urine Glucose",
+    "category": "Urine Analysis",
+    "unit": "qualitative",
+    "universal": { "low": 0, "high": 0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "qualitative": true,
+    "normal_values": ["negative"],
+    "abnormal_values": ["trace", "1+", "2+", "3+", "4+"],
+    "plain_language": {
+      "normal": "No glucose in urine.",
+      "high": "Glucose detected in urine (glucosuria). Suggests blood glucose exceeds renal threshold (~180 mg/dL).",
+      "low": "No glucose in urine.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urine_ketones",
+    "name": "Urine Ketones",
+    "category": "Urine Analysis",
+    "unit": "qualitative",
+    "universal": { "low": 0, "high": 0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "qualitative": true,
+    "normal_values": ["negative"],
+    "abnormal_values": ["trace", "1+", "2+", "3+", "4+"],
+    "plain_language": {
+      "normal": "No ketones detected in urine.",
+      "high": "Ketones detected in urine (ketonuria). May indicate uncontrolled diabetes, prolonged fasting, or a low-carbohydrate diet.",
+      "low": "No ketones detected in urine.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urine_specific_gravity",
+    "name": "Urine Specific Gravity",
+    "category": "Urine Analysis",
+    "unit": "",
+    "universal": { "low": 1.005, "high": 1.030 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your urine specific gravity is within the normal range, indicating proper kidney concentrating ability.",
+      "low": "Your urine specific gravity is low, suggesting dilute urine. This may be due to excessive fluid intake or impaired kidney concentrating ability.",
+      "high": "Your urine specific gravity is high, suggesting concentrated urine. This may indicate dehydration or excess solute excretion.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urine_ph",
+    "name": "Urine pH",
+    "category": "Urine Analysis",
+    "unit": "",
+    "universal": { "low": 5.0, "high": 8.0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your urine pH is within the normal range.",
+      "low": "Your urine pH is acidic. This may be due to diet, metabolic acidosis, or certain medications.",
+      "high": "Your urine pH is alkaline. This may be due to urinary tract infections, renal tubular acidosis, or a vegetarian diet.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urine_pus_cells",
+    "name": "Urine Pus Cells (WBC)",
+    "category": "Urine Analysis",
+    "unit": "cells/HPF",
+    "universal": { "low": 0, "high": 5 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "No significant pus cells detected in urine.",
+      "low": "Pus cell count is within the normal range.",
+      "high": "Elevated pus cells in urine (pyuria). May indicate a urinary tract infection or inflammation.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urine_rbc",
+    "name": "Urine RBC (Red Blood Cells)",
+    "category": "Urine Analysis",
+    "unit": "cells/HPF",
+    "universal": { "low": 0, "high": 0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "No red blood cells detected in urine.",
+      "low": "No red blood cells detected in urine.",
+      "high": "Red blood cells detected in urine (hematuria). May indicate kidney stones, urinary tract infection, or other urological conditions. Any RBC in urine is considered abnormal.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urine_casts",
+    "name": "Urine Casts",
+    "category": "Urine Analysis",
+    "unit": "qualitative",
+    "universal": { "low": 0, "high": 0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "qualitative": true,
+    "normal_values": ["none"],
+    "abnormal_values": ["hyaline", "granular", "waxy", "rbc casts", "wbc casts", "epithelial casts"],
+    "plain_language": {
+      "normal": "No casts detected in urine.",
+      "high": "Casts detected in urine. The type of cast can help identify the underlying kidney condition.",
+      "low": "No casts detected in urine.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urine_bacteria",
+    "name": "Urine Bacteria",
+    "category": "Urine Analysis",
+    "unit": "qualitative",
+    "universal": { "low": 0, "high": 0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "qualitative": true,
+    "normal_values": ["absent"],
+    "abnormal_values": ["few", "moderate", "many"],
+    "plain_language": {
+      "normal": "No bacteria detected in urine.",
+      "high": "Bacteria detected in urine (bacteriuria). May indicate a urinary tract infection. Urine culture may be recommended.",
+      "low": "No bacteria detected in urine.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "afp",
+    "name": "Alpha-Fetoprotein (AFP)",
+    "category": "Tumor Markers",
+    "unit": "IU/mL",
+    "universal": { "low": 0, "high": 6.514 },
+    "critical_low": null,
+    "critical_high": 400,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your AFP level is within the normal range.",
+      "low": "Your AFP level is within the normal range.",
+      "high": "Your AFP is elevated. This may be associated with liver disease, hepatocellular carcinoma, or germ cell tumors. Further evaluation is recommended.",
+      "critical_low": null,
+      "critical_high": "Your AFP is critically elevated. Seek immediate medical evaluation for possible hepatocellular carcinoma or advanced liver disease."
+    }
+  },
+  {
+    "test_id": "cea",
+    "name": "Carcinoembryonic Antigen (CEA)",
+    "category": "Tumor Markers",
+    "unit": "ng/mL",
+    "universal": { "low": 0, "high": 5.093 },
+    "critical_low": null,
+    "critical_high": 20,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your CEA level is within the normal range.",
+      "low": "Your CEA level is within the normal range.",
+      "high": "Your CEA is elevated. This may be associated with colorectal, lung, breast, or other cancers. Smoking can also elevate CEA. Further evaluation is recommended.",
+      "critical_low": null,
+      "critical_high": "Your CEA is critically elevated. Seek immediate medical evaluation for possible malignancy or disease progression."
+    }
+  },
+  {
+    "test_id": "ca19_9",
+    "name": "Cancer Antigen 19-9 (CA 19-9)",
+    "category": "Tumor Markers",
+    "unit": "U/mL",
+    "universal": { "low": 0, "high": 28 },
+    "critical_low": null,
+    "critical_high": 100,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your CA 19-9 level is within the normal range.",
+      "low": "Your CA 19-9 level is within the normal range.",
+      "high": "Your CA 19-9 is elevated. This may be associated with pancreatic, bile duct, or gastrointestinal cancers. Non-malignant conditions like pancreatitis can also elevate it.",
+      "critical_low": null,
+      "critical_high": "Your CA 19-9 is critically elevated. Seek immediate medical evaluation for possible pancreatic or gastrointestinal malignancy."
+    }
+  },
+  {
+    "test_id": "ca15_3",
+    "name": "Cancer Antigen 15-3 (CA 15-3)",
+    "category": "Tumor Markers",
+    "unit": "U/mL",
+    "universal": { "low": 0, "high": 28 },
+    "critical_low": null,
+    "critical_high": 100,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your CA 15-3 level is within the normal range.",
+      "low": "Your CA 15-3 level is within the normal range.",
+      "high": "Your CA 15-3 is elevated. This marker is primarily associated with breast cancer, especially metastatic disease. Non-malignant conditions like liver cirrhosis can also elevate it.",
+      "critical_low": null,
+      "critical_high": "Your CA 15-3 is critically elevated. Seek immediate medical evaluation for possible metastatic breast cancer or other malignancy."
+    }
+  },
+  {
+    "test_id": "psa",
+    "name": "Prostate-Specific Antigen (PSA)",
+    "category": "Tumor Markers",
+    "unit": "ng/mL",
+    "male": { "low": 0, "high": 4.0 },
+    "critical_low": null,
+    "critical_high": 10,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your PSA level is within the normal range.",
+      "low": "Your PSA level is within the normal range.",
+      "high": "Your PSA is elevated. This may indicate benign prostatic hyperplasia (BPH), prostatitis, or prostate cancer. Further evaluation with a urologist is recommended.",
+      "critical_low": null,
+      "critical_high": "Your PSA is critically elevated. Seek immediate urological evaluation for possible prostate cancer."
+    }
+  },
+  {
+    "test_id": "ca125",
+    "name": "Cancer Antigen 125 (CA-125)",
+    "category": "Tumor Markers",
+    "unit": "U/mL",
+    "universal": { "low": 0, "high": 35 },
+    "critical_low": null,
+    "critical_high": 200,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your CA-125 level is within the normal range.",
+      "low": "Your CA-125 level is within the normal range.",
+      "high": "Your CA-125 is elevated. This may be associated with ovarian cancer, endometriosis, pelvic inflammatory disease, or other conditions. Further evaluation is recommended.",
+      "critical_low": null,
+      "critical_high": "Your CA-125 is critically elevated. Seek immediate medical evaluation for possible ovarian malignancy or other serious condition."
+    }
+  },
+  {
+    "test_id": "total_t3",
+    "name": "Total T3 (Triiodothyronine)",
+    "category": "Thyroid",
+    "unit": "ng/mL",
+    "universal": { "low": 0.763, "high": 2.208 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": { "nmol/L": 1.536 },
+    "plain_language": {
+      "normal": "Your total T3 is within the normal range, indicating healthy thyroid function.",
+      "low": "Your total T3 is low, which may suggest hypothyroidism, non-thyroidal illness, or low thyroid binding globulin.",
+      "high": "Your total T3 is elevated, which may indicate hyperthyroidism or increased thyroid binding globulin.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "total_t4",
+    "name": "Total T4 (Thyroxine)",
+    "category": "Thyroid",
+    "unit": "\u00b5g/dL",
+    "universal": { "low": 4.5, "high": 13.0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": { "nmol/L": 12.87 },
+    "plain_language": {
+      "normal": "Your total T4 is within the normal range, indicating healthy thyroid function.",
+      "low": "Your total T4 is low, which may suggest hypothyroidism or decreased thyroid binding globulin.",
+      "high": "Your total T4 is elevated, which may indicate hyperthyroidism or increased thyroid binding globulin.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "aec",
+    "name": "Absolute Eosinophil Count (AEC)",
+    "category": "CBC",
+    "unit": "cells/\u00b5L",
+    "universal": { "low": 40, "high": 400 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your absolute eosinophil count is within the normal range.",
+      "low": "Your eosinophil count is low, which is usually not clinically significant but may be seen with steroid use or acute stress.",
+      "high": "Your eosinophil count is elevated (eosinophilia). This may indicate allergies, parasitic infections, asthma, or autoimmune conditions.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "indirect_bilirubin",
+    "name": "Indirect Bilirubin (Unconjugated)",
+    "category": "LFT",
+    "unit": "mg/dL",
+    "universal": { "low": 0.0, "high": 1.0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": { "umol/L": 17.1 },
+    "plain_language": {
+      "normal": "Your indirect bilirubin is within the normal range.",
+      "low": "Your indirect bilirubin is within the lower range, which is normal.",
+      "high": "Your indirect bilirubin is elevated, which may suggest hemolysis, Gilbert's syndrome, or ineffective erythropoiesis.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "total_protein",
+    "name": "Total Protein",
+    "category": "LFT",
+    "unit": "g/dL",
+    "universal": { "low": 6.0, "high": 8.0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": { "g/L": 10.0 },
+    "plain_language": {
+      "normal": "Your total protein is within the normal range.",
+      "low": "Your total protein is low, which may suggest malnutrition, liver disease, or protein-losing conditions.",
+      "high": "Your total protein is elevated, which may indicate chronic inflammation, infections, or multiple myeloma.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "globulin",
+    "name": "Globulin",
+    "category": "LFT",
+    "unit": "g/dL",
+    "universal": { "low": 2.0, "high": 3.5 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": { "g/L": 10.0 },
+    "plain_language": {
+      "normal": "Your globulin level is within the normal range.",
+      "low": "Your globulin is low, which may suggest immune deficiency or liver disease.",
+      "high": "Your globulin is elevated, which may indicate chronic infection, inflammatory disease, or multiple myeloma.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "ag_ratio",
+    "name": "Albumin/Globulin Ratio (A/G Ratio)",
+    "category": "LFT",
+    "unit": "",
+    "universal": { "low": 1.0, "high": 2.5 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your A/G ratio is within the normal range.",
+      "low": "Your A/G ratio is low, which may suggest liver disease, kidney disease, or an overproduction of globulins.",
+      "high": "Your A/G ratio is high, which may indicate underproduction of immunoglobulins.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "rbc",
+    "name": "Red Blood Cell Count (RBC)",
+    "category": "CBC",
+    "unit": "million/\u00b5L",
+    "male": { "low": 4.5, "high": 5.5 },
+    "female": { "low": 4.0, "high": 5.0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your red blood cell count is within the normal range.",
+      "low": "Your RBC count is low, which may suggest anemia, blood loss, or bone marrow disorders.",
+      "high": "Your RBC count is elevated, which may indicate polycythemia, dehydration, or chronic hypoxia.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "monocytes_pct",
+    "name": "Monocytes (%)",
+    "category": "CBC",
+    "unit": "%",
+    "universal": { "low": 2, "high": 10 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your monocyte percentage is within the normal range.",
+      "low": "Your monocyte percentage is low, which may be seen with bone marrow disorders or certain infections.",
+      "high": "Your monocyte percentage is elevated (monocytosis). This may indicate chronic infections, inflammatory diseases, or certain malignancies.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "eosinophils_pct",
+    "name": "Eosinophils (%)",
+    "category": "CBC",
+    "unit": "%",
+    "universal": { "low": 1, "high": 6 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your eosinophil percentage is within the normal range.",
+      "low": "Your eosinophil percentage is low, which is usually not clinically significant.",
+      "high": "Your eosinophil percentage is elevated (eosinophilia). This may indicate allergies, parasitic infections, or autoimmune conditions.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "basophils_pct",
+    "name": "Basophils (%)",
+    "category": "CBC",
+    "unit": "%",
+    "universal": { "low": 0, "high": 1 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your basophil percentage is within the normal range.",
+      "low": "Your basophil percentage is within the normal range.",
+      "high": "Your basophil percentage is elevated (basophilia). This may indicate allergic reactions, chronic myeloid leukemia, or inflammatory conditions.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "neutrophils_pct",
+    "name": "Neutrophils (%)",
+    "category": "CBC",
+    "unit": "%",
+    "universal": { "low": 40, "high": 70 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your neutrophil percentage is within the normal range.",
+      "low": "Your neutrophil percentage is low (neutropenia). This may increase susceptibility to infections.",
+      "high": "Your neutrophil percentage is elevated (neutrophilia). This may indicate bacterial infections, inflammation, or stress response.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "lymphocytes_pct",
+    "name": "Lymphocytes (%)",
+    "category": "CBC",
+    "unit": "%",
+    "universal": { "low": 20, "high": 45 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your lymphocyte percentage is within the normal range.",
+      "low": "Your lymphocyte percentage is low (lymphopenia). This may indicate immunodeficiency, steroid use, or viral infections.",
+      "high": "Your lymphocyte percentage is elevated (lymphocytosis). This may indicate viral infections, chronic lymphocytic leukemia, or other lymphoproliferative disorders.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "ast_alt_ratio",
+    "name": "AST/ALT Ratio (De Ritis Ratio)",
+    "category": "LFT",
+    "unit": "",
+    "universal": { "low": 0, "high": 1.0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your AST/ALT ratio is within the normal range, suggesting no significant liver fibrosis or alcoholic liver disease.",
+      "low": "Your AST/ALT ratio is within the normal range.",
+      "high": "Your AST/ALT ratio is elevated (>1). This may suggest alcoholic liver disease, cirrhosis, or non-hepatic sources of AST elevation.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "bun_creat_ratio",
+    "name": "BUN/Creatinine Ratio",
+    "category": "Renal",
+    "unit": "",
+    "universal": { "low": 10, "high": 20 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your BUN/Creatinine ratio is within the normal range.",
+      "low": "Your BUN/Creatinine ratio is low, which may suggest liver disease, malnutrition, or rhabdomyolysis.",
+      "high": "Your BUN/Creatinine ratio is elevated, which may indicate prerenal causes such as dehydration, heart failure, or GI bleeding.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "chol_hdl_ratio",
+    "name": "Total Cholesterol/HDL Ratio",
+    "category": "Lipid",
+    "unit": "",
+    "universal": { "low": 0, "high": 5.0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your cholesterol/HDL ratio is within the normal range, indicating lower cardiovascular risk.",
+      "low": "Your cholesterol/HDL ratio is low, indicating favorable cardiovascular risk.",
+      "high": "Your cholesterol/HDL ratio is elevated, indicating higher cardiovascular risk. Improving HDL levels and reducing total cholesterol is recommended.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urea",
+    "name": "Urea (Blood Urea)",
+    "category": "Renal",
+    "unit": "mg/dL",
+    "universal": { "low": 15, "high": 45 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": { "mmol/L": 0.357 },
+    "plain_language": {
+      "normal": "Your blood urea level is within the normal range, indicating healthy kidney function.",
+      "low": "Your urea level is low, which may suggest liver disease, malnutrition, or overhydration.",
+      "high": "Your urea level is elevated, which may indicate impaired kidney function, dehydration, or high protein intake.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "anc",
+    "name": "Absolute Neutrophil Count (ANC)",
+    "category": "CBC",
+    "unit": "/µL",
+    "male": { "low": 1500, "high": 8000 },
+    "female": { "low": 1500, "high": 8000 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your absolute neutrophil count is within the normal range, indicating a healthy immune response.",
+      "low": "Your absolute neutrophil count is low (neutropenia), which may increase your risk of infections. Common causes include viral infections, medications, or bone marrow disorders.",
+      "high": "Your absolute neutrophil count is elevated (neutrophilia), which may indicate bacterial infections, inflammation, or stress response.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "alc",
+    "name": "Absolute Lymphocyte Count (ALC)",
+    "category": "CBC",
+    "unit": "/µL",
+    "male": { "low": 1500, "high": 4000 },
+    "female": { "low": 1500, "high": 4000 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your absolute lymphocyte count is within the normal range, indicating healthy immune function.",
+      "low": "Your absolute lymphocyte count is low (lymphopenia), which may indicate immunodeficiency, steroid use, or certain viral infections.",
+      "high": "Your absolute lymphocyte count is elevated (lymphocytosis), which may indicate viral infections, chronic lymphocytic leukemia, or other lymphoproliferative disorders.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "amc",
+    "name": "Absolute Monocyte Count (AMC)",
+    "category": "CBC",
+    "unit": "/µL",
+    "male": { "low": 200, "high": 1000 },
+    "female": { "low": 200, "high": 1000 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your absolute monocyte count is within the normal range.",
+      "low": "Your absolute monocyte count is low, which may be seen with bone marrow suppression or certain infections.",
+      "high": "Your absolute monocyte count is elevated (monocytosis), which may indicate chronic infections, inflammatory diseases, or certain malignancies.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "abc",
+    "name": "Absolute Basophil Count (ABC)",
+    "category": "CBC",
+    "unit": "/µL",
+    "male": { "low": 0, "high": 200 },
+    "female": { "low": 0, "high": 200 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your absolute basophil count is within the normal range.",
+      "low": "Your absolute basophil count is within the normal range.",
+      "high": "Your absolute basophil count is elevated (basophilia), which may indicate allergic reactions, chronic myeloid leukemia, or inflammatory conditions.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "rdw_sd",
+    "name": "RDW-SD (Red Cell Distribution Width - Standard Deviation)",
+    "category": "CBC",
+    "unit": "fL",
+    "male": { "low": 36, "high": 56 },
+    "female": { "low": 36, "high": 56 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your RDW-SD is within the normal range, indicating uniform red blood cell size.",
+      "low": "Your RDW-SD is low, indicating very uniform red blood cell size, which is generally normal.",
+      "high": "Your RDW-SD is elevated, indicating significant variation in red blood cell size (anisocytosis). This may suggest iron deficiency, vitamin B12/folate deficiency, or mixed anemias.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "avg_blood_glucose",
+    "name": "Estimated Average Blood Glucose (eAG)",
+    "category": "Diabetes",
+    "unit": "mg/dL",
+    "male": { "low": 70, "high": 140 },
+    "female": { "low": 70, "high": 140 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": { "mmol/L": 0.0555 },
+    "plain_language": {
+      "normal": "Your estimated average blood glucose is within the normal range, indicating good glycemic control.",
+      "low": "Your estimated average blood glucose is low, which may suggest hypoglycemia risk. Consult your physician about adjusting diabetes medications if applicable.",
+      "high": "Your estimated average blood glucose is elevated, indicating suboptimal glycemic control. This increases the risk of diabetes-related complications.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "non_hdl_cholesterol",
+    "name": "Non-HDL Cholesterol",
+    "category": "Lipid",
+    "unit": "mg/dL",
+    "male": { "low": 0, "high": 130 },
+    "female": { "low": 0, "high": 130 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": { "mmol/L": 0.02586 },
+    "plain_language": {
+      "normal": "Your non-HDL cholesterol is within the desirable range, indicating lower cardiovascular risk.",
+      "low": "Your non-HDL cholesterol is low, which is generally favorable for cardiovascular health.",
+      "high": "Your non-HDL cholesterol is elevated, indicating higher cardiovascular risk. This includes all atherogenic lipoproteins and is a key target for lipid-lowering therapy.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "ldl_hdl_ratio",
+    "name": "LDL/HDL Ratio",
+    "category": "Lipid",
+    "unit": "ratio",
+    "male": { "low": 0, "high": 3.0 },
+    "female": { "low": 0, "high": 3.0 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your LDL/HDL ratio is within the normal range, indicating a favorable balance between bad and good cholesterol.",
+      "low": "Your LDL/HDL ratio is low, indicating a favorable cardiovascular risk profile.",
+      "high": "Your LDL/HDL ratio is elevated, indicating higher cardiovascular risk. Consider lifestyle modifications and consult your physician about lipid management.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "tg_hdl_ratio",
+    "name": "Triglyceride/HDL Ratio",
+    "category": "Lipid",
+    "unit": "ratio",
+    "male": { "low": 0, "high": 3.5 },
+    "female": { "low": 0, "high": 3.5 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your triglyceride/HDL ratio is within the normal range, suggesting lower insulin resistance risk.",
+      "low": "Your triglyceride/HDL ratio is low, indicating favorable metabolic health and lower insulin resistance.",
+      "high": "Your triglyceride/HDL ratio is elevated, which is associated with insulin resistance, metabolic syndrome, and increased cardiovascular risk.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  },
+  {
+    "test_id": "urea_creat_ratio",
+    "name": "Urea/Creatinine Ratio",
+    "category": "RFT",
+    "unit": "ratio",
+    "male": { "low": 10, "high": 20 },
+    "female": { "low": 10, "high": 20 },
+    "critical_low": null,
+    "critical_high": null,
+    "conversions": {},
+    "plain_language": {
+      "normal": "Your urea/creatinine ratio is within the normal range, indicating balanced kidney function.",
+      "low": "Your urea/creatinine ratio is low, which may suggest liver disease, malnutrition, or rhabdomyolysis.",
+      "high": "Your urea/creatinine ratio is elevated, which may indicate prerenal causes such as dehydration, heart failure, or gastrointestinal bleeding.",
+      "critical_low": null,
+      "critical_high": null
+    }
+  }
+]

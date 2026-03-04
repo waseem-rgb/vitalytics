@@ -1,0 +1,1605 @@
+{
+  "iron_deficiency_anemia": {
+    "further_tests": [
+      { "test_name": "Peripheral Blood Smear", "rationale": "To assess RBC morphology and confirm microcytic hypochromic pattern consistent with iron deficiency" },
+      { "test_name": "Reticulocyte Count", "rationale": "To evaluate bone marrow response and erythropoietic activity" },
+      { "test_name": "Serum Iron, TIBC, and Transferrin Saturation", "rationale": "To confirm iron deficiency with low serum iron, elevated TIBC, and reduced transferrin saturation" },
+      { "test_name": "Stool Occult Blood Test", "rationale": "To rule out gastrointestinal blood loss as the underlying cause" },
+      { "test_name": "Celiac Serology (tTG-IgA)", "rationale": "To exclude celiac disease as a cause of iron malabsorption" },
+      { "test_name": "Helicobacter pylori Testing", "rationale": "H. pylori infection can impair iron absorption and contribute to iron deficiency" }
+    ],
+    "specialist_referral": {
+      "specialist": "Hematologist",
+      "urgency": "routine",
+      "reason": "For evaluation of iron deficiency anemia etiology and management of refractory cases",
+      "when_to_refer": "If anemia persists despite 3 months of adequate iron supplementation, or if hemoglobin is below 7 g/dL"
+    },
+    "lifestyle": {
+      "diet": [
+        "Increase iron-rich foods: red meat, liver, shellfish, spinach, lentils, chickpeas, and fortified cereals",
+        "Pair iron-rich foods with vitamin C sources (citrus fruits, bell peppers, tomatoes) to enhance non-heme iron absorption",
+        "Avoid tea, coffee, and calcium supplements within 1 hour of iron-rich meals as they inhibit iron absorption",
+        "Include heme iron sources (meat, poultry, fish) which have 2-3 times higher bioavailability than plant-based iron",
+        "Consider cooking in cast iron cookware to increase dietary iron content"
+      ],
+      "exercise": [
+        {
+          "type": "Low-moderate aerobic (walking, light cycling)",
+          "duration": "20-30 minutes",
+          "frequency": "3-4 times per week",
+          "precautions": "Avoid intense exercise until hemoglobin exceeds 10 g/dL; stop if experiencing dizziness, chest pain, or excessive fatigue"
+        },
+        {
+          "type": "Gentle yoga or stretching",
+          "duration": "15-20 minutes",
+          "frequency": "Daily",
+          "precautions": "Avoid inverted poses if symptomatic; rise slowly from floor positions to prevent orthostatic dizziness"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-9 hours of quality sleep per night to support erythropoiesis",
+        "Maintain a consistent sleep-wake schedule even on weekends",
+        "Elevate head slightly if experiencing restless leg symptoms, which are common in iron deficiency"
+      ],
+      "stress": [
+        "Practice mindfulness or deep breathing exercises for 10-15 minutes daily",
+        "Engage in relaxation techniques such as progressive muscle relaxation before bedtime",
+        "Maintain social connections and seek support if fatigue is affecting daily functioning"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  },
+
+  "megaloblastic_anemia": {
+    "further_tests": [
+      { "test_name": "Serum Vitamin B12 Level", "rationale": "To confirm B12 deficiency as the cause of megaloblastic changes" },
+      { "test_name": "Serum Methylmalonic Acid (MMA)", "rationale": "Elevated MMA is specific for B12 deficiency and helps distinguish from folate deficiency" },
+      { "test_name": "Serum Homocysteine", "rationale": "Elevated in both B12 and folate deficiency; helps confirm functional deficiency" },
+      { "test_name": "Anti-Intrinsic Factor Antibodies", "rationale": "To diagnose pernicious anemia as the underlying autoimmune cause" },
+      { "test_name": "Anti-Parietal Cell Antibodies", "rationale": "Supportive evidence for autoimmune gastritis leading to B12 malabsorption" },
+      { "test_name": "Reticulocyte Count", "rationale": "To assess bone marrow erythropoietic response and monitor treatment efficacy" }
+    ],
+    "specialist_referral": {
+      "specialist": "Hematologist",
+      "urgency": "soon",
+      "reason": "For evaluation of megaloblastic anemia etiology, especially if neurological symptoms are present",
+      "when_to_refer": "If neurological symptoms (paresthesia, ataxia, cognitive changes) are present, or if anemia does not respond to B12 supplementation within 8 weeks"
+    },
+    "lifestyle": {
+      "diet": [
+        "Increase B12-rich foods: meat, fish, eggs, dairy products, and fortified plant milks",
+        "Include folate-rich foods: dark leafy greens, legumes, asparagus, and fortified grains",
+        "For vegetarians/vegans, use B12-fortified nutritional yeast, plant milks, and cereals daily",
+        "Avoid excessive alcohol consumption as it impairs B12 and folate absorption and utilization"
+      ],
+      "exercise": [
+        {
+          "type": "Low-impact aerobic exercise (walking, swimming)",
+          "duration": "20-30 minutes",
+          "frequency": "3-5 times per week",
+          "precautions": "Be cautious with balance exercises if neurological symptoms are present; avoid high-impact activities until hemoglobin normalizes"
+        },
+        {
+          "type": "Balance and coordination exercises",
+          "duration": "10-15 minutes",
+          "frequency": "Daily",
+          "precautions": "Perform near a wall or with support if peripheral neuropathy is present; discontinue if numbness worsens"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-9 hours of sleep per night to support hematological recovery",
+        "Address any sleep disturbances related to neurological symptoms with your physician",
+        "Maintain a dark, cool sleep environment to promote restorative sleep"
+      ],
+      "stress": [
+        "Practice guided meditation or mindfulness for 10-15 minutes daily",
+        "Consider cognitive behavioral techniques if experiencing anxiety related to neurological symptoms",
+        "Engage in gentle social activities to combat fatigue-related isolation"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  },
+
+  "folate_deficiency": {
+    "further_tests": [
+      { "test_name": "Red Cell Folate", "rationale": "More accurate reflection of tissue folate stores than serum folate alone" },
+      { "test_name": "Serum Homocysteine", "rationale": "Elevated homocysteine confirms functional folate deficiency" },
+      { "test_name": "Serum Vitamin B12", "rationale": "Must exclude concurrent B12 deficiency as folate supplementation alone can mask B12 deficiency and worsen neurological damage" },
+      { "test_name": "Peripheral Blood Smear", "rationale": "To identify macroovalocytes and hypersegmented neutrophils characteristic of megaloblastic changes" },
+      { "test_name": "Celiac Serology (tTG-IgA)", "rationale": "Celiac disease is a common cause of folate malabsorption" }
+    ],
+    "specialist_referral": {
+      "specialist": "Hematologist",
+      "urgency": "routine",
+      "reason": "For persistent folate deficiency despite dietary correction and supplementation",
+      "when_to_refer": "If folate levels do not normalize after 4-8 weeks of supplementation, or if malabsorption is suspected"
+    },
+    "lifestyle": {
+      "diet": [
+        "Increase folate-rich foods: dark leafy greens (spinach, kale, broccoli), legumes (lentils, chickpeas, black beans), asparagus, and avocado",
+        "Consume fortified cereals, breads, and grains which provide folic acid",
+        "Eat fruits rich in folate: oranges, strawberries, bananas, and papaya",
+        "Minimize overcooking vegetables as heat destroys folate; prefer steaming or raw consumption",
+        "Limit alcohol intake as alcohol directly impairs folate absorption and metabolism"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise (brisk walking, cycling, swimming)",
+          "duration": "30 minutes",
+          "frequency": "4-5 times per week",
+          "precautions": "Reduce intensity if hemoglobin is below 10 g/dL; monitor for fatigue and shortness of breath"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-9 hours of sleep per night",
+        "Maintain consistent sleep and wake times to support cellular repair processes"
+      ],
+      "stress": [
+        "Practice relaxation techniques such as deep breathing or progressive muscle relaxation for 10 minutes daily",
+        "Engage in activities that promote well-being: reading, gentle walks in nature, or socializing"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  },
+
+  "anemia_chronic_disease": {
+    "further_tests": [
+      { "test_name": "C-Reactive Protein (CRP) and ESR", "rationale": "To quantify the degree of systemic inflammation driving anemia of chronic disease" },
+      { "test_name": "Serum Ferritin", "rationale": "Typically elevated or normal in ACD due to inflammation-driven iron sequestration; helps distinguish from iron deficiency" },
+      { "test_name": "Serum Iron, TIBC, and Transferrin Saturation", "rationale": "Low serum iron with low TIBC distinguishes ACD from iron deficiency anemia (which has high TIBC)" },
+      { "test_name": "Reticulocyte Count", "rationale": "Typically inappropriately low, reflecting suppressed erythropoiesis" },
+      { "test_name": "Serum Erythropoietin Level", "rationale": "Often inappropriately low relative to the degree of anemia in ACD" },
+      { "test_name": "Soluble Transferrin Receptor (sTfR)", "rationale": "Helps differentiate ACD from coexistent iron deficiency; elevated sTfR suggests concurrent true iron deficiency" }
+    ],
+    "specialist_referral": {
+      "specialist": "Hematologist or relevant specialist for underlying disease",
+      "urgency": "routine",
+      "reason": "For evaluation and management of refractory anemia, and to optimize treatment of the underlying chronic condition",
+      "when_to_refer": "If hemoglobin falls below 8 g/dL, if erythropoietin-stimulating agents are being considered, or if the underlying cause is unclear"
+    },
+    "lifestyle": {
+      "diet": [
+        "Maintain a balanced, anti-inflammatory diet rich in fruits, vegetables, whole grains, and omega-3 fatty acids (salmon, mackerel, walnuts, flaxseed)",
+        "Ensure adequate protein intake (lean meats, legumes, tofu) to support red blood cell production",
+        "Include antioxidant-rich foods: berries, dark chocolate, green tea, and colorful vegetables",
+        "Avoid processed foods, refined sugars, and trans fats which can exacerbate systemic inflammation"
+      ],
+      "exercise": [
+        {
+          "type": "Low-moderate aerobic exercise (walking, stationary cycling, water aerobics)",
+          "duration": "20-30 minutes",
+          "frequency": "3-5 times per week",
+          "precautions": "Adjust intensity based on hemoglobin level and underlying disease activity; stop if symptomatic (dizziness, chest pain, severe dyspnea)"
+        },
+        {
+          "type": "Resistance training (light weights or resistance bands)",
+          "duration": "15-20 minutes",
+          "frequency": "2-3 times per week",
+          "precautions": "Focus on functional strength; avoid heavy lifting if hemoglobin is below 9 g/dL"
+        }
+      ],
+      "sleep": [
+        "Prioritize 7-9 hours of quality sleep per night",
+        "Address sleep disturbances related to the underlying chronic condition with your physician",
+        "Establish a calming bedtime routine to improve sleep quality"
+      ],
+      "stress": [
+        "Practice stress-reduction techniques: meditation, deep breathing, or guided imagery for 10-15 minutes daily",
+        "Consider joining a support group for the underlying chronic condition",
+        "Limit exposure to chronic stressors where possible, as stress exacerbates inflammation"
+      ],
+      "weight": "Maintain a healthy body weight appropriate for your condition; discuss target weight with your physician",
+      "smoking": "Cessation is strongly recommended as smoking worsens inflammation and reduces oxygen-carrying capacity"
+    }
+  },
+
+  "pancytopenia": {
+    "further_tests": [
+      { "test_name": "Peripheral Blood Smear", "rationale": "To evaluate cell morphology and identify blasts, dysplastic cells, or other diagnostic clues" },
+      { "test_name": "Reticulocyte Count", "rationale": "Low reticulocyte count suggests bone marrow failure; elevated count suggests peripheral destruction" },
+      { "test_name": "Bone Marrow Aspiration and Biopsy", "rationale": "Essential to determine the underlying etiology: aplastic anemia, myelodysplasia, leukemia, or marrow infiltration" },
+      { "test_name": "Vitamin B12 and Folate Levels", "rationale": "Severe B12 or folate deficiency can cause pancytopenia and is a reversible cause" },
+      { "test_name": "Hepatitis B and C Serology, HIV Testing", "rationale": "Viral infections are known causes of bone marrow suppression leading to pancytopenia" },
+      { "test_name": "LDH and Haptoglobin", "rationale": "To evaluate for hemolytic processes that may contribute to cytopenias" }
+    ],
+    "specialist_referral": {
+      "specialist": "Hematologist",
+      "urgency": "urgent",
+      "reason": "Pancytopenia requires urgent evaluation to exclude hematologic malignancy, aplastic anemia, or other serious bone marrow disorders",
+      "when_to_refer": "Immediately upon detection of pancytopenia, especially if neutrophil count is below 0.5 x 10^9/L or platelets are below 20 x 10^9/L"
+    },
+    "lifestyle": {
+      "diet": [
+        "Maintain a well-balanced, nutrient-dense diet to support hematopoiesis",
+        "Ensure adequate intake of B12, folate, iron, copper, and zinc through diverse food sources",
+        "Practice strict food safety: avoid raw or undercooked meats, unpasteurized dairy, and unwashed produce to reduce infection risk during neutropenia",
+        "Stay well-hydrated with at least 2 liters of fluids daily"
+      ],
+      "exercise": [
+        {
+          "type": "Gentle walking or light stretching",
+          "duration": "10-20 minutes",
+          "frequency": "As tolerated, daily if possible",
+          "precautions": "Avoid contact sports and activities with fall risk due to thrombocytopenia; avoid crowded gyms during neutropenia to reduce infection risk"
+        }
+      ],
+      "sleep": [
+        "Aim for 8-9 hours of sleep per night as the body requires additional rest during hematologic recovery",
+        "Take short naps (20-30 minutes) during the day if fatigue is significant",
+        "Maintain a consistent sleep schedule to support immune function"
+      ],
+      "stress": [
+        "Practice mindfulness meditation or guided relaxation for 10-15 minutes daily",
+        "Seek psychological support or counseling to manage anxiety associated with the diagnosis",
+        "Maintain social connections through low-risk interactions (phone calls, video chats) if immunocompromised"
+      ],
+      "weight": null,
+      "smoking": "Smoking cessation is essential as tobacco further suppresses bone marrow function and increases infection risk"
+    }
+  },
+
+  "thrombocytopenia": {
+    "further_tests": [
+      { "test_name": "Peripheral Blood Smear", "rationale": "To assess platelet morphology, rule out pseudothrombocytopenia (platelet clumping), and identify schistocytes suggesting TTP/HUS" },
+      { "test_name": "Coagulation Screen (PT, aPTT, Fibrinogen, D-dimer)", "rationale": "To evaluate for disseminated intravascular coagulation or other coagulopathies" },
+      { "test_name": "Liver Function Tests", "rationale": "Chronic liver disease with portal hypertension causes splenic sequestration of platelets" },
+      { "test_name": "HIV, Hepatitis B and C Serology", "rationale": "Viral infections are common secondary causes of immune thrombocytopenia" },
+      { "test_name": "Direct Antiglobulin Test (DAT/Coombs)", "rationale": "To evaluate for autoimmune hemolytic anemia which may co-occur with immune thrombocytopenia (Evans syndrome)" },
+      { "test_name": "Antinuclear Antibody (ANA) and Anti-dsDNA", "rationale": "To screen for systemic lupus erythematosus as an underlying autoimmune cause" }
+    ],
+    "specialist_referral": {
+      "specialist": "Hematologist",
+      "urgency": "urgent",
+      "reason": "For evaluation of thrombocytopenia etiology and management, particularly if platelet count is critically low or there is active bleeding",
+      "when_to_refer": "Immediately if platelets are below 20 x 10^9/L, if there is active bleeding, or if TTP/HUS is suspected"
+    },
+    "lifestyle": {
+      "diet": [
+        "Maintain a balanced diet rich in folate, B12, and vitamin K to support platelet production and coagulation",
+        "Include foods that may support platelet health: papaya leaf extract (consult physician first), pumpkin, and leafy greens",
+        "Avoid excessive alcohol consumption as alcohol directly suppresses platelet production",
+        "Avoid foods with high salicylate content (berries, spices) if bleeding risk is high; discuss with physician"
+      ],
+      "exercise": [
+        {
+          "type": "Low-impact exercise (walking, swimming, stationary cycling)",
+          "duration": "20-30 minutes",
+          "frequency": "3-4 times per week",
+          "precautions": "Strictly avoid contact sports, heavy weightlifting, and activities with high fall or injury risk; avoid exercise if platelets are below 30 x 10^9/L"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-9 hours of uninterrupted sleep per night",
+        "Adequate rest supports thrombopoiesis and immune regulation",
+        "Report any unusual bruising noticed upon waking to your physician"
+      ],
+      "stress": [
+        "Practice daily stress-reduction techniques: deep breathing, meditation, or gentle yoga",
+        "Chronic stress can exacerbate autoimmune conditions; consider counseling if stress levels are high",
+        "Use journaling or support groups to manage emotional well-being"
+      ],
+      "weight": null,
+      "smoking": "Smoking cessation is advised as smoking impairs platelet function and increases cardiovascular risk"
+    }
+  },
+
+  "ckd_stage3_plus": {
+    "further_tests": [
+      { "test_name": "Urine Albumin-to-Creatinine Ratio (uACR)", "rationale": "To quantify albuminuria for CKD staging and progression risk assessment" },
+      { "test_name": "Renal Ultrasound", "rationale": "To assess kidney size, cortical thickness, and rule out obstruction or structural abnormalities" },
+      { "test_name": "Serum Electrolytes (Na, K, Ca, Phosphate)", "rationale": "CKD stage 3+ is associated with electrolyte disturbances requiring monitoring and management" },
+      { "test_name": "Intact Parathyroid Hormone (iPTH) and Vitamin D (25-OH)", "rationale": "To screen for CKD-mineral bone disorder which develops as GFR declines" },
+      { "test_name": "Complete Blood Count", "rationale": "To screen for anemia of chronic kidney disease which typically develops at stage 3+" },
+      { "test_name": "Lipid Panel", "rationale": "CKD is a cardiovascular risk equivalent; lipid management is essential" }
+    ],
+    "specialist_referral": {
+      "specialist": "Nephrologist",
+      "urgency": "soon",
+      "reason": "For co-management of CKD stage 3+, optimization of renoprotective strategies, and preparation for potential renal replacement therapy",
+      "when_to_refer": "At diagnosis of CKD stage 3b (eGFR <45), or earlier if rapid decline (>5 mL/min/1.73m2 per year), or if significant proteinuria is present"
+    },
+    "lifestyle": {
+      "diet": [
+        "Limit sodium intake to less than 2,000 mg per day to control blood pressure and reduce fluid retention",
+        "Moderate protein intake (0.6-0.8 g/kg/day) as directed by nephrologist to reduce renal workload",
+        "Limit potassium-rich foods (bananas, oranges, potatoes, tomatoes) if serum potassium is elevated",
+        "Restrict phosphorus intake by avoiding processed foods, colas, and dairy if phosphate levels are elevated",
+        "Stay adequately hydrated (typically 1.5-2 liters/day) unless fluid restriction is advised"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise (brisk walking, cycling, swimming)",
+          "duration": "30 minutes",
+          "frequency": "5 times per week",
+          "precautions": "Monitor blood pressure before and after exercise; avoid exercising if blood pressure is uncontrolled (>180/110 mmHg); adjust intensity based on anemia status"
+        },
+        {
+          "type": "Resistance training (light-moderate weights or resistance bands)",
+          "duration": "20-30 minutes",
+          "frequency": "2-3 times per week",
+          "precautions": "Avoid Valsalva maneuver; focus on functional movements; clear with nephrologist if on dialysis access"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night",
+        "Screen for and treat sleep apnea, which is highly prevalent in CKD patients",
+        "Elevate legs during rest if peripheral edema is present"
+      ],
+      "stress": [
+        "Practice daily mindfulness meditation for 10-15 minutes to manage the psychological burden of chronic disease",
+        "Consider referral to a psychologist experienced in chronic illness management",
+        "Engage in enjoyable, low-stress activities and maintain social connections"
+      ],
+      "weight": "Achieve and maintain a healthy BMI (18.5-24.9); weight loss if overweight can slow CKD progression and improve blood pressure control",
+      "smoking": "Smoking cessation is critical as smoking accelerates CKD progression and greatly increases cardiovascular risk"
+    }
+  },
+
+  "ckd_with_albuminuria": {
+    "further_tests": [
+      { "test_name": "Repeat Urine Albumin-to-Creatinine Ratio (uACR)", "rationale": "Confirm persistent albuminuria with at least two abnormal results over 3 months to confirm CKD diagnosis" },
+      { "test_name": "24-Hour Urine Protein Collection", "rationale": "To quantify total proteinuria when spot uACR is markedly elevated or when nephrotic-range proteinuria is suspected" },
+      { "test_name": "Serum Albumin", "rationale": "To assess for nephrotic syndrome if proteinuria is heavy" },
+      { "test_name": "HbA1c and Fasting Glucose", "rationale": "Diabetic nephropathy is the most common cause of albuminuria; glycemic status must be assessed" },
+      { "test_name": "Autoimmune Screen (ANA, ANCA, Complement C3/C4, Anti-GBM)", "rationale": "To exclude glomerulonephritis if albuminuria is unexplained by diabetes or hypertension" },
+      { "test_name": "Renal Ultrasound", "rationale": "To assess kidney structure and exclude obstructive or structural causes" }
+    ],
+    "specialist_referral": {
+      "specialist": "Nephrologist",
+      "urgency": "soon",
+      "reason": "For evaluation of albuminuria etiology, consideration of renal biopsy, and optimization of renoprotective therapy",
+      "when_to_refer": "If uACR exceeds 30 mg/mmol (300 mg/g) persistently, if nephrotic syndrome is suspected, or if cause of albuminuria is unclear"
+    },
+    "lifestyle": {
+      "diet": [
+        "Restrict sodium to less than 2,000 mg per day to reduce proteinuria and control blood pressure",
+        "Moderate protein intake as high protein diets can worsen proteinuria and accelerate kidney damage",
+        "Follow a DASH-style or Mediterranean diet pattern to support cardiovascular and renal health",
+        "Limit processed and packaged foods which are high in sodium and phosphorus additives",
+        "Ensure adequate caloric intake to prevent malnutrition while adhering to dietary restrictions"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise (walking, cycling, swimming)",
+          "duration": "30 minutes",
+          "frequency": "5 times per week",
+          "precautions": "Avoid strenuous exercise during nephrotic flares; monitor for peripheral edema and adjust fluid intake accordingly"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-9 hours of quality sleep per night",
+        "Elevate legs at night if peripheral edema is present",
+        "Report morning facial puffiness or worsening edema to your physician promptly"
+      ],
+      "stress": [
+        "Practice relaxation techniques such as deep breathing, progressive muscle relaxation, or mindfulness daily",
+        "Seek support through chronic kidney disease patient education programs",
+        "Manage stress proactively as chronic stress can worsen blood pressure and kidney function"
+      ],
+      "weight": "Maintain a healthy BMI; weight loss in overweight individuals reduces proteinuria and slows CKD progression",
+      "smoking": "Smoking cessation is imperative as smoking worsens albuminuria and accelerates decline in kidney function"
+    }
+  },
+
+  "acute_kidney_injury": {
+    "further_tests": [
+      { "test_name": "Urinalysis with Microscopy", "rationale": "To identify casts (muddy brown granular casts in ATN, RBC casts in glomerulonephritis), proteinuria, and hematuria" },
+      { "test_name": "Renal Ultrasound", "rationale": "To exclude urinary tract obstruction (post-renal AKI) and assess kidney size" },
+      { "test_name": "Urine Electrolytes (Na, Urea, Creatinine) and FeNa", "rationale": "Fractional excretion of sodium helps distinguish pre-renal (FeNa <1%) from intrinsic renal causes (FeNa >2%)" },
+      { "test_name": "Serum Electrolytes (K, Ca, Phosphate, Bicarbonate)", "rationale": "AKI can cause life-threatening hyperkalemia, metabolic acidosis, and other electrolyte disturbances" },
+      { "test_name": "Creatine Kinase (CK)", "rationale": "To exclude rhabdomyolysis as a cause of AKI" },
+      { "test_name": "Blood Gas Analysis", "rationale": "To assess acid-base status; metabolic acidosis is common in AKI and may require urgent intervention" }
+    ],
+    "specialist_referral": {
+      "specialist": "Nephrologist",
+      "urgency": "urgent",
+      "reason": "For urgent evaluation and management of acute kidney injury, including potential dialysis initiation",
+      "when_to_refer": "Immediately if AKI is stage 2-3 (creatinine >2x baseline), if hyperkalemia is refractory, if metabolic acidosis is severe, or if dialysis may be needed"
+    },
+    "lifestyle": {
+      "diet": [
+        "Follow renal-protective dietary guidance during recovery: limit sodium, potassium, and phosphorus as directed by your physician",
+        "Ensure adequate but not excessive protein intake during recovery phase (consult dietitian)",
+        "Maintain appropriate fluid intake as directed; avoid both dehydration and fluid overload",
+        "Avoid nephrotoxic substances: NSAIDs, excessive caffeine, and herbal supplements not approved by your physician"
+      ],
+      "exercise": [
+        {
+          "type": "Gentle mobilization and walking",
+          "duration": "10-20 minutes, gradually increasing",
+          "frequency": "Daily as tolerated during recovery",
+          "precautions": "Avoid strenuous exercise until renal function has stabilized; maintain hydration during activity; medical clearance required before returning to full exercise"
+        }
+      ],
+      "sleep": [
+        "Prioritize rest during the acute phase with 8-10 hours of sleep per night",
+        "Allow the body adequate recovery time; fatigue is expected during AKI recovery",
+        "Monitor and report any changes in urine output or color to your medical team"
+      ],
+      "stress": [
+        "Focus on recovery and avoid unnecessary physical and emotional stressors",
+        "Practice gentle breathing exercises or guided meditation for relaxation",
+        "Accept help from family and friends during the recovery period"
+      ],
+      "weight": null,
+      "smoking": "Smoking cessation is strongly advised as smoking impairs renal recovery and increases risk of progression to chronic kidney disease"
+    }
+  },
+
+  "prediabetes": {
+    "further_tests": [
+      { "test_name": "Oral Glucose Tolerance Test (OGTT)", "rationale": "75g OGTT is the gold standard for diagnosing impaired glucose tolerance and provides more diagnostic information than fasting glucose alone" },
+      { "test_name": "Fasting Insulin Level", "rationale": "To assess for insulin resistance using HOMA-IR calculation" },
+      { "test_name": "Lipid Panel", "rationale": "Prediabetes is associated with dyslipidemia and increased cardiovascular risk" },
+      { "test_name": "Liver Function Tests and Hepatic Steatosis Index", "rationale": "Non-alcoholic fatty liver disease frequently coexists with prediabetes and insulin resistance" },
+      { "test_name": "HbA1c (repeat in 3 months)", "rationale": "To monitor glycemic trajectory and confirm prediabetes status" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "routine",
+      "reason": "For lifestyle intervention counseling and consideration of metformin therapy in high-risk individuals",
+      "when_to_refer": "If lifestyle modifications fail to improve glycemic parameters within 6 months, or if BMI exceeds 35 with additional risk factors"
+    },
+    "lifestyle": {
+      "diet": [
+        "Follow a Mediterranean or DASH diet pattern emphasizing whole grains, vegetables, legumes, nuts, and lean proteins",
+        "Reduce intake of refined carbohydrates, sugary beverages, and processed foods",
+        "Choose low-glycemic-index foods to minimize postprandial glucose spikes",
+        "Practice portion control and aim for consistent meal timing to regulate blood glucose",
+        "Increase dietary fiber intake to at least 25-30 grams per day from whole food sources"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate-intensity aerobic exercise (brisk walking, cycling, swimming, dancing)",
+          "duration": "30-60 minutes",
+          "frequency": "At least 5 days per week (minimum 150 minutes total per week)",
+          "precautions": "Start gradually if sedentary; monitor blood glucose before and after exercise; carry a fast-acting carbohydrate source"
+        },
+        {
+          "type": "Resistance training (weights, resistance bands, bodyweight exercises)",
+          "duration": "20-30 minutes",
+          "frequency": "2-3 non-consecutive days per week",
+          "precautions": "Focus on major muscle groups; proper form is essential to prevent injury; progress gradually"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night as insufficient sleep worsens insulin resistance",
+        "Maintain a consistent sleep schedule; irregular sleep patterns disrupt glucose metabolism",
+        "Screen for and treat obstructive sleep apnea, which is strongly associated with insulin resistance"
+      ],
+      "stress": [
+        "Practice daily stress management: mindfulness meditation, yoga, or tai chi for 15-20 minutes",
+        "Chronic stress elevates cortisol, which directly worsens insulin resistance; proactive management is essential",
+        "Build a support network and consider a structured diabetes prevention program (e.g., DPP)"
+      ],
+      "weight": "Aim for 5-7% body weight loss over 6 months; this has been shown to reduce diabetes risk by 58% in the Diabetes Prevention Program",
+      "smoking": "Smoking cessation is critical as smoking independently increases diabetes risk by 30-40%"
+    }
+  },
+
+  "diabetes_mellitus": {
+    "further_tests": [
+      { "test_name": "HbA1c (quarterly until stable, then every 6 months)", "rationale": "To monitor long-term glycemic control; target is typically below 7% for most adults" },
+      { "test_name": "Fasting Lipid Panel", "rationale": "Diabetes significantly increases cardiovascular risk; lipid management is a cornerstone of diabetes care" },
+      { "test_name": "Urine Albumin-to-Creatinine Ratio (uACR)", "rationale": "Annual screening for diabetic nephropathy, a leading cause of CKD and end-stage renal disease" },
+      { "test_name": "Serum Creatinine and eGFR", "rationale": "To monitor renal function alongside uACR for comprehensive nephropathy screening" },
+      { "test_name": "Dilated Fundoscopic Examination", "rationale": "Annual screening for diabetic retinopathy, which can progress to blindness if untreated" },
+      { "test_name": "Foot Examination and Monofilament Testing", "rationale": "Annual comprehensive foot exam to screen for diabetic neuropathy and peripheral vascular disease" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "soon",
+      "reason": "For comprehensive diabetes management, insulin initiation if needed, and management of complications",
+      "when_to_refer": "If HbA1c remains above target despite dual oral therapy, if type 1 diabetes is suspected, or if there are significant complications"
+    },
+    "lifestyle": {
+      "diet": [
+        "Follow a balanced meal plan with consistent carbohydrate distribution across meals; consult a certified diabetes educator",
+        "Emphasize non-starchy vegetables, lean proteins, healthy fats, and whole grains",
+        "Limit added sugars and refined carbohydrates; choose complex carbohydrates with high fiber content",
+        "Practice carbohydrate counting or the plate method (half plate non-starchy vegetables, quarter lean protein, quarter whole grains)",
+        "Limit alcohol to moderate amounts (1 drink/day women, 2/day men); never drink on an empty stomach to avoid hypoglycemia"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate-to-vigorous aerobic exercise (brisk walking, jogging, cycling, swimming)",
+          "duration": "30-60 minutes",
+          "frequency": "At least 5 days per week (150+ minutes moderate or 75+ minutes vigorous per week); do not go more than 2 consecutive days without exercise",
+          "precautions": "Check blood glucose before, during, and after exercise; carry fast-acting glucose; wear proper footwear to protect feet; avoid exercise if blood glucose >250 mg/dL with ketones"
+        },
+        {
+          "type": "Resistance training (weights, resistance bands, bodyweight exercises)",
+          "duration": "20-30 minutes",
+          "frequency": "At least 2-3 non-consecutive days per week",
+          "precautions": "Avoid heavy Valsalva if retinopathy is present; inspect feet after exercise; stay hydrated"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep; sleep deprivation directly worsens glycemic control",
+        "Screen for and aggressively treat obstructive sleep apnea, which is common in type 2 diabetes and worsens insulin resistance",
+        "Maintain consistent sleep-wake times even on weekends"
+      ],
+      "stress": [
+        "Implement daily stress management practices: mindfulness, yoga, deep breathing, or progressive muscle relaxation",
+        "Stress hormones (cortisol, adrenaline) raise blood glucose; managing stress is a direct component of glycemic control",
+        "Consider diabetes-specific psychological support or counseling for diabetes distress"
+      ],
+      "weight": "Aim for 5-10% body weight loss if overweight or obese; even modest weight loss significantly improves insulin sensitivity and glycemic control",
+      "smoking": "Smoking cessation is absolutely critical; smoking doubles cardiovascular risk in diabetic patients and accelerates microvascular complications"
+    }
+  },
+
+  "insulin_resistance": {
+    "further_tests": [
+      { "test_name": "Fasting Insulin and HOMA-IR Calculation", "rationale": "To quantify the degree of insulin resistance; HOMA-IR above 2.5 indicates significant insulin resistance" },
+      { "test_name": "Oral Glucose Tolerance Test (OGTT) with Insulin Levels", "rationale": "To assess glucose tolerance and the degree of compensatory hyperinsulinemia" },
+      { "test_name": "HbA1c", "rationale": "To determine if insulin resistance has progressed to prediabetes or diabetes" },
+      { "test_name": "Lipid Panel", "rationale": "Insulin resistance is associated with characteristic atherogenic dyslipidemia: elevated triglycerides, low HDL, small dense LDL" },
+      { "test_name": "Liver Ultrasound or FibroScan", "rationale": "To screen for non-alcoholic fatty liver disease (NAFLD/MAFLD) which is strongly associated with insulin resistance" },
+      { "test_name": "Uric Acid", "rationale": "Hyperuricemia is commonly associated with insulin resistance and metabolic syndrome" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "routine",
+      "reason": "For assessment and management of insulin resistance, particularly if there are features of metabolic syndrome or PCOS",
+      "when_to_refer": "If lifestyle modifications are insufficient after 3-6 months, or if there are associated conditions requiring specialist management (PCOS, NAFLD)"
+    },
+    "lifestyle": {
+      "diet": [
+        "Adopt a low-glycemic-index, Mediterranean-style diet rich in healthy fats (olive oil, avocado, nuts), vegetables, and lean proteins",
+        "Reduce refined carbohydrates and added sugars dramatically; replace with whole grains, legumes, and fiber-rich foods",
+        "Include chromium-rich foods (broccoli, green beans, whole grains) and magnesium-rich foods (nuts, seeds, leafy greens) which support insulin sensitivity",
+        "Practice time-restricted eating (e.g., eating within a 10-12 hour window) if appropriate and tolerated",
+        "Increase soluble fiber intake from sources like oats, flaxseed, beans, and psyllium to improve glycemic response"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate-to-vigorous aerobic exercise (brisk walking, jogging, cycling, swimming, HIIT)",
+          "duration": "30-45 minutes",
+          "frequency": "5-7 days per week (aim for 200+ minutes per week for optimal insulin sensitization)",
+          "precautions": "Start gradually if previously sedentary; HIIT should be introduced progressively; stay well-hydrated"
+        },
+        {
+          "type": "Resistance/strength training",
+          "duration": "30-40 minutes",
+          "frequency": "3-4 times per week on non-consecutive days",
+          "precautions": "Focus on compound movements (squats, deadlifts, rows) that engage large muscle groups for maximum insulin-sensitizing effect; ensure proper form"
+        }
+      ],
+      "sleep": [
+        "Prioritize 7-8 hours of quality sleep; even one night of sleep deprivation measurably worsens insulin sensitivity",
+        "Treat sleep disorders aggressively, especially obstructive sleep apnea",
+        "Avoid screens and bright lights 1 hour before bedtime; blue light exposure disrupts circadian rhythms and glucose metabolism"
+      ],
+      "stress": [
+        "Practice daily stress reduction: meditation, yoga, tai chi, or deep breathing for 15-20 minutes",
+        "Cortisol directly promotes insulin resistance; chronic stress management is a metabolic priority",
+        "Consider cognitive behavioral therapy (CBT) if stress or emotional eating patterns are significant"
+      ],
+      "weight": "Weight loss of 7-10% of body weight is the single most effective intervention for improving insulin sensitivity; target through combined diet and exercise",
+      "smoking": "Smoking cessation is essential as nicotine worsens insulin resistance independent of body weight"
+    }
+  },
+
+  "metabolic_syndrome": {
+    "further_tests": [
+      { "test_name": "Fasting Glucose, Insulin, and HbA1c", "rationale": "To assess glycemic status and degree of insulin resistance in the context of metabolic syndrome" },
+      { "test_name": "Comprehensive Lipid Panel (including LDL particle size if available)", "rationale": "To fully characterize atherogenic dyslipidemia with small dense LDL pattern typical of metabolic syndrome" },
+      { "test_name": "High-Sensitivity CRP (hs-CRP)", "rationale": "To assess cardiovascular inflammatory risk which is elevated in metabolic syndrome" },
+      { "test_name": "Liver Function Tests and Liver Ultrasound", "rationale": "NAFLD is present in up to 80% of patients with metabolic syndrome; screen for hepatic steatosis and fibrosis" },
+      { "test_name": "Uric Acid", "rationale": "Hyperuricemia is strongly associated with metabolic syndrome and increases gout and cardiovascular risk" },
+      { "test_name": "Urine Albumin-to-Creatinine Ratio", "rationale": "Microalbuminuria is a marker of endothelial dysfunction and early target organ damage in metabolic syndrome" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist or Cardiologist",
+      "urgency": "routine",
+      "reason": "For comprehensive cardiovascular risk reduction and management of metabolic syndrome components",
+      "when_to_refer": "If lifestyle modifications fail to improve metabolic parameters within 3-6 months, or if cardiovascular risk assessment warrants pharmacologic intervention"
+    },
+    "lifestyle": {
+      "diet": [
+        "Follow a Mediterranean diet pattern: abundant vegetables, fruits, whole grains, legumes, nuts, olive oil, fish; limited red meat and processed foods",
+        "Strictly limit added sugars and sugar-sweetened beverages, which are strongly linked to visceral adiposity and metabolic syndrome",
+        "Reduce sodium intake to less than 2,300 mg/day (ideally <1,500 mg/day) to help control blood pressure",
+        "Increase omega-3 fatty acid intake through fatty fish (salmon, sardines, mackerel) 2-3 times per week or supplementation",
+        "Choose high-fiber foods (>30 g/day) to improve lipid profile, glycemic control, and promote satiety"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate-to-vigorous aerobic exercise (brisk walking, jogging, cycling, swimming, dancing)",
+          "duration": "30-60 minutes",
+          "frequency": "5-7 days per week (target 250-300 minutes per week for weight loss)",
+          "precautions": "Obtain medical clearance if previously sedentary; monitor blood pressure response; progress gradually"
+        },
+        {
+          "type": "Resistance training",
+          "duration": "30 minutes",
+          "frequency": "3 times per week",
+          "precautions": "Focus on major muscle groups; combine with aerobic training for synergistic metabolic benefits; avoid breath-holding"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep; short sleep duration (<6 hours) is independently associated with metabolic syndrome",
+        "Screen for and treat obstructive sleep apnea which both worsens and is worsened by metabolic syndrome",
+        "Maintain regular sleep-wake patterns; circadian disruption exacerbates all components of metabolic syndrome"
+      ],
+      "stress": [
+        "Engage in daily stress-management practices for at least 15-20 minutes: mindfulness, yoga, tai chi, or nature walks",
+        "Address emotional eating patterns which commonly contribute to visceral adiposity",
+        "Build resilience through social support, hobbies, and work-life balance strategies"
+      ],
+      "weight": "Aim for a sustained weight loss of 7-10% of body weight; this improves all five components of metabolic syndrome. Focus on reducing waist circumference as a marker of visceral fat reduction.",
+      "smoking": "Smoking cessation is absolutely essential; smoking synergistically amplifies cardiovascular risk in the setting of metabolic syndrome"
+    }
+  },
+
+  "primary_hypothyroidism": {
+    "further_tests": [
+      { "test_name": "Free T4 (FT4)", "rationale": "To confirm hypothyroidism and assess severity; low FT4 with elevated TSH confirms primary hypothyroidism" },
+      { "test_name": "Thyroid Peroxidase Antibodies (TPO-Ab)", "rationale": "To identify Hashimoto's thyroiditis as the autoimmune etiology, which is the most common cause" },
+      { "test_name": "Thyroglobulin Antibodies (TgAb)", "rationale": "Additional autoimmune marker that supports the diagnosis of autoimmune thyroiditis" },
+      { "test_name": "Lipid Panel", "rationale": "Hypothyroidism causes secondary hyperlipidemia which may resolve with adequate thyroid hormone replacement" },
+      { "test_name": "Complete Blood Count", "rationale": "Hypothyroidism can cause macrocytic anemia; assess baseline hematologic status" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "routine",
+      "reason": "For optimization of thyroid hormone replacement and management of autoimmune thyroid disease",
+      "when_to_refer": "If TSH remains out of range despite dose adjustments, if there is a thyroid nodule, during pregnancy, or if there is suspicion of secondary hypothyroidism"
+    },
+    "lifestyle": {
+      "diet": [
+        "Ensure adequate iodine intake through iodized salt, seafood, and dairy products (deficiency is rare in developed countries but should be assessed)",
+        "Include selenium-rich foods (Brazil nuts, fish, eggs) which support thyroid hormone metabolism and may reduce TPO antibodies",
+        "Take levothyroxine on an empty stomach, 30-60 minutes before breakfast, separated from calcium, iron, and soy supplements by at least 4 hours",
+        "Avoid excessive consumption of raw cruciferous vegetables (broccoli, cabbage, kale) in very large quantities as goitrogens; cooking deactivates goitrogens"
+      ],
+      "exercise": [
+        {
+          "type": "Progressive aerobic exercise (walking, cycling, swimming)",
+          "duration": "30-45 minutes",
+          "frequency": "4-5 times per week",
+          "precautions": "Start slowly and increase gradually as thyroid levels normalize; fatigue may limit initial exercise tolerance"
+        },
+        {
+          "type": "Resistance training",
+          "duration": "20-30 minutes",
+          "frequency": "2-3 times per week",
+          "precautions": "Helps counteract hypothyroidism-related muscle weakness and weight gain; progress gradually"
+        }
+      ],
+      "sleep": [
+        "Maintain a consistent sleep schedule of 7-9 hours per night",
+        "Excessive sleepiness despite adequate sleep may indicate suboptimal thyroid hormone replacement",
+        "Monitor for sleep apnea which is more common in hypothyroidism"
+      ],
+      "stress": [
+        "Practice stress management daily as stress can exacerbate autoimmune thyroid disease flares",
+        "Engage in relaxation techniques: yoga, meditation, or progressive muscle relaxation for 15-20 minutes daily",
+        "Join thyroid disease support groups for shared experiences and coping strategies"
+      ],
+      "weight": "Weight gain is common in hypothyroidism; once thyroid levels are optimized, aim for gradual weight loss through diet and exercise if overweight",
+      "smoking": "Smoking cessation is important as smoking is associated with increased severity of thyroid eye disease and worsens thyroid autoimmunity"
+    }
+  },
+
+  "hyperthyroidism": {
+    "further_tests": [
+      { "test_name": "Free T4 and Free T3", "rationale": "To confirm and quantify hyperthyroidism; T3-predominant thyrotoxicosis is common in Graves' disease" },
+      { "test_name": "TSH Receptor Antibodies (TRAb/TSI)", "rationale": "Positive in Graves' disease, which is the most common cause of hyperthyroidism" },
+      { "test_name": "Thyroid Uptake and Scan (I-123 or Tc-99m)", "rationale": "To differentiate Graves' disease (diffuse uptake) from toxic nodular disease (focal uptake) and thyroiditis (low uptake)" },
+      { "test_name": "Complete Blood Count with Differential", "rationale": "Baseline before starting antithyroid drugs which can rarely cause agranulocytosis" },
+      { "test_name": "Liver Function Tests", "rationale": "Hyperthyroidism can cause hepatic dysfunction; also needed as baseline before antithyroid drug therapy" },
+      { "test_name": "ECG", "rationale": "To screen for atrial fibrillation and other cardiac arrhythmias associated with thyrotoxicosis" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "soon",
+      "reason": "For definitive diagnosis, treatment planning (antithyroid drugs, radioactive iodine, or surgery), and monitoring",
+      "when_to_refer": "At diagnosis of hyperthyroidism; urgently if thyroid storm is suspected, if atrial fibrillation is present, or during pregnancy"
+    },
+    "lifestyle": {
+      "diet": [
+        "Increase caloric intake temporarily to counteract the hypermetabolic state and prevent excessive weight loss",
+        "Ensure adequate calcium and vitamin D intake (dairy, fortified foods, supplements) to protect bones from thyrotoxicosis-related bone loss",
+        "Avoid excess iodine intake (seaweed, kelp supplements, iodine-containing contrast dyes) as it can worsen hyperthyroidism",
+        "Stay well-hydrated as fluid losses are increased in the hypermetabolic state",
+        "Limit caffeine intake as it can exacerbate palpitations, anxiety, and tremor"
+      ],
+      "exercise": [
+        {
+          "type": "Low-impact exercise (walking, gentle yoga, stretching)",
+          "duration": "15-30 minutes",
+          "frequency": "3-5 times per week",
+          "precautions": "Avoid vigorous exercise until thyroid levels are controlled; monitor heart rate and stop if palpitations, chest pain, or excessive tachycardia occur; avoid exercise in hot environments"
+        }
+      ],
+      "sleep": [
+        "Establish a calming bedtime routine to combat hyperthyroidism-related insomnia",
+        "Keep the bedroom cool and dark; excessive heat intolerance is common",
+        "Discuss sleep aids with your physician if insomnia is severe and impacting quality of life"
+      ],
+      "stress": [
+        "Prioritize stress management as stress can trigger and exacerbate Graves' disease",
+        "Practice cooling relaxation techniques: guided meditation, progressive muscle relaxation, or calming breathing exercises for 15-20 minutes daily",
+        "Reduce exposure to stressful situations during acute thyrotoxicosis as the condition amplifies the stress response"
+      ],
+      "weight": null,
+      "smoking": "Smoking cessation is critical; smoking significantly increases the risk and severity of Graves' ophthalmopathy (thyroid eye disease)"
+    }
+  },
+
+  "subclinical_hypothyroidism": {
+    "further_tests": [
+      { "test_name": "Repeat TSH and Free T4 in 6-12 weeks", "rationale": "To confirm persistent subclinical hypothyroidism; transient TSH elevation (e.g., post-illness) must be excluded" },
+      { "test_name": "Thyroid Peroxidase Antibodies (TPO-Ab)", "rationale": "Positive TPO-Ab indicates higher risk of progression to overt hypothyroidism (4.3% per year vs 2.6%)" },
+      { "test_name": "Lipid Panel", "rationale": "Even subclinical hypothyroidism can worsen lipid profiles; baseline assessment aids treatment decisions" },
+      { "test_name": "Thyroid Ultrasound", "rationale": "If thyroid gland is enlarged or nodular on examination, ultrasound is indicated to assess for structural disease" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "routine",
+      "reason": "For guidance on levothyroxine initiation in subclinical hypothyroidism, particularly if TSH is above 10 mIU/L or if symptomatic",
+      "when_to_refer": "If TSH is persistently above 10 mIU/L, if patient is symptomatic, if planning pregnancy, or if TPO-Ab positive with rising TSH trend"
+    },
+    "lifestyle": {
+      "diet": [
+        "Maintain a balanced diet with adequate iodine, selenium, and zinc to support thyroid function",
+        "Include selenium-rich foods: Brazil nuts (1-2 per day), fish, eggs, and sunflower seeds",
+        "Avoid excessive soy isoflavone consumption which may interfere with thyroid hormone absorption if taking levothyroxine",
+        "Ensure adequate vitamin D intake as deficiency is associated with autoimmune thyroid disease"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise (brisk walking, cycling, swimming)",
+          "duration": "30-45 minutes",
+          "frequency": "5 times per week",
+          "precautions": "Regular exercise can help counteract mild fatigue and weight gain associated with subclinical hypothyroidism; no specific restrictions"
+        },
+        {
+          "type": "Resistance training",
+          "duration": "20-30 minutes",
+          "frequency": "2-3 times per week",
+          "precautions": "Helps maintain lean body mass and metabolic rate; standard exercise precautions apply"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-9 hours of sleep per night",
+        "Monitor for signs of progression to overt hypothyroidism: increasing fatigue, weight gain, cold intolerance",
+        "Maintain consistent sleep patterns to support thyroid axis regulation"
+      ],
+      "stress": [
+        "Practice daily relaxation techniques for 10-15 minutes to support immune regulation",
+        "Chronic stress may worsen autoimmune thyroid disease; prioritize self-care",
+        "Engage in enjoyable activities and social interactions to maintain overall well-being"
+      ],
+      "weight": "Monitor weight trends; gradual unexplained weight gain may indicate progression to overt hypothyroidism and should prompt repeat thyroid testing",
+      "smoking": null
+    }
+  },
+
+  "subclinical_hyperthyroidism": {
+    "further_tests": [
+      { "test_name": "Repeat TSH, Free T4, and Free T3 in 6-12 weeks", "rationale": "To confirm persistent subclinical hyperthyroidism; transient TSH suppression must be excluded" },
+      { "test_name": "TSH Receptor Antibodies (TRAb)", "rationale": "To determine if Graves' disease is the underlying cause of subclinical hyperthyroidism" },
+      { "test_name": "Thyroid Uptake and Scan", "rationale": "To differentiate Graves' disease from autonomous thyroid nodule(s) as the etiology" },
+      { "test_name": "Bone Density (DEXA Scan)", "rationale": "Subclinical hyperthyroidism increases bone turnover and fracture risk, especially in postmenopausal women" },
+      { "test_name": "ECG and Holter Monitor if indicated", "rationale": "To screen for atrial fibrillation or other arrhythmias; risk is 3-fold higher with subclinical hyperthyroidism in adults over 65" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "routine",
+      "reason": "For evaluation of the etiology of subclinical hyperthyroidism and treatment decisions based on risk stratification",
+      "when_to_refer": "If TSH is persistently below 0.1 mIU/L, in patients over 65, if there is atrial fibrillation, osteoporosis, or cardiac symptoms"
+    },
+    "lifestyle": {
+      "diet": [
+        "Ensure adequate calcium (1000-1200 mg/day) and vitamin D (800-1000 IU/day) intake to protect bone health",
+        "Avoid excessive iodine-containing foods and supplements (seaweed, kelp) that can worsen thyroid overactivity",
+        "Maintain a balanced, nutrient-dense diet to support overall health",
+        "Limit caffeine which may exacerbate palpitations and anxiety"
+      ],
+      "exercise": [
+        {
+          "type": "Weight-bearing aerobic exercise (walking, jogging, dancing, stair climbing)",
+          "duration": "30 minutes",
+          "frequency": "5 times per week",
+          "precautions": "Weight-bearing exercise is particularly important to protect bone density; monitor heart rate; avoid overexertion if palpitations are present"
+        },
+        {
+          "type": "Resistance and balance training",
+          "duration": "20-30 minutes",
+          "frequency": "2-3 times per week",
+          "precautions": "Focus on bone-protective exercises; include balance training to reduce fall and fracture risk"
+        }
+      ],
+      "sleep": [
+        "Maintain a cool, dark sleeping environment; sleep disturbances may be an early sign of progression",
+        "Aim for 7-8 hours of quality sleep per night",
+        "Report new-onset insomnia or worsening palpitations at night to your physician promptly"
+      ],
+      "stress": [
+        "Practice relaxation and stress-reduction techniques daily for 10-15 minutes",
+        "Monitor for anxiety symptoms which may indicate progression to overt hyperthyroidism",
+        "Engage in calming activities such as gentle yoga, nature walks, or creative hobbies"
+      ],
+      "weight": null,
+      "smoking": "Smoking cessation is strongly recommended as smoking increases the risk of Graves' ophthalmopathy and worsens cardiovascular outcomes"
+    }
+  },
+
+  "hepatocellular_injury": {
+    "further_tests": [
+      { "test_name": "Viral Hepatitis Serology (HBsAg, Anti-HCV, HAV IgM)", "rationale": "To identify viral hepatitis as the most common infectious cause of hepatocellular injury" },
+      { "test_name": "Autoimmune Hepatitis Panel (ANA, ASMA, Anti-LKM, IgG levels)", "rationale": "To screen for autoimmune hepatitis which requires immunosuppressive treatment" },
+      { "test_name": "Serum Ferritin and Transferrin Saturation", "rationale": "To screen for hemochromatosis, a treatable cause of hepatocellular injury" },
+      { "test_name": "Ceruloplasmin", "rationale": "To screen for Wilson's disease, particularly in patients under 40 with unexplained liver injury" },
+      { "test_name": "Liver Ultrasound with Doppler", "rationale": "To assess liver parenchyma, identify steatosis, evaluate hepatic vasculature, and screen for hepatic lesions" },
+      { "test_name": "Paracetamol (Acetaminophen) Level", "rationale": "If acute presentation, to rule out acetaminophen toxicity as a common cause of acute hepatocellular injury" }
+    ],
+    "specialist_referral": {
+      "specialist": "Hepatologist / Gastroenterologist",
+      "urgency": "soon",
+      "reason": "For evaluation of hepatocellular injury etiology and management, especially if ALT/AST exceed 5 times the upper limit of normal",
+      "when_to_refer": "Urgently if ALT/AST exceed 10x ULN, if INR is elevated (acute liver failure), or if etiology is unclear after initial workup"
+    },
+    "lifestyle": {
+      "diet": [
+        "Completely abstain from alcohol until the cause is identified and liver enzymes have normalized",
+        "Follow a balanced, liver-friendly diet: emphasize fruits, vegetables, whole grains, and lean proteins",
+        "Avoid hepatotoxic supplements and herbal remedies (kava, comfrey, high-dose vitamin A, green tea extract in concentrated form)",
+        "Limit processed foods, trans fats, and excessive sugar which contribute to hepatic steatosis",
+        "Maintain adequate hydration; drink coffee (3-4 cups/day) which has hepatoprotective properties"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise (walking, swimming, cycling)",
+          "duration": "30 minutes",
+          "frequency": "5 times per week",
+          "precautions": "Avoid intense exercise during acute liver injury; exercise is beneficial for fatty liver disease; monitor for fatigue"
+        },
+        {
+          "type": "Light resistance training",
+          "duration": "20 minutes",
+          "frequency": "2-3 times per week",
+          "precautions": "Helps maintain muscle mass; avoid if there are signs of portal hypertension or coagulopathy"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night",
+        "Report any reversal of sleep-wake cycle (sleeping during the day, awake at night) as this may indicate hepatic encephalopathy",
+        "Maintain a consistent sleep schedule to support hepatic circadian rhythms"
+      ],
+      "stress": [
+        "Practice stress-reduction techniques daily as chronic stress can worsen inflammatory liver conditions",
+        "Engage in mindfulness meditation or gentle yoga for 15-20 minutes daily",
+        "Seek emotional support if dealing with a chronic liver disease diagnosis"
+      ],
+      "weight": "If overweight, gradual weight loss (0.5-1 kg per week) is recommended to reduce hepatic steatosis; avoid rapid weight loss which can paradoxically worsen liver inflammation",
+      "smoking": "Smoking cessation is advised as smoking accelerates hepatic fibrosis and increases the risk of hepatocellular carcinoma"
+    }
+  },
+
+  "cholestatic_pattern": {
+    "further_tests": [
+      { "test_name": "Liver Ultrasound", "rationale": "First-line imaging to distinguish intrahepatic from extrahepatic cholestasis by identifying bile duct dilation, gallstones, or masses" },
+      { "test_name": "Anti-Mitochondrial Antibodies (AMA)", "rationale": "Highly specific for primary biliary cholangitis (PBC), the most common autoimmune cause of intrahepatic cholestasis" },
+      { "test_name": "MRCP (Magnetic Resonance Cholangiopancreatography)", "rationale": "Non-invasive imaging to evaluate biliary tree for strictures, stones, or primary sclerosing cholangitis" },
+      { "test_name": "GGT (Gamma-Glutamyl Transferase)", "rationale": "Elevated GGT with elevated ALP confirms hepatobiliary origin and rules out bone as the source of elevated ALP" },
+      { "test_name": "IgG4 Levels", "rationale": "To screen for IgG4-related cholangitis, a treatable cause of cholestatic disease" }
+    ],
+    "specialist_referral": {
+      "specialist": "Hepatologist / Gastroenterologist",
+      "urgency": "soon",
+      "reason": "For evaluation of cholestatic liver disease etiology and management, including consideration of ERCP or liver biopsy",
+      "when_to_refer": "If cholestatic pattern persists for more than 2-4 weeks, if bile duct dilation is identified on imaging, or if AMA is positive"
+    },
+    "lifestyle": {
+      "diet": [
+        "Follow a low-fat diet if bile flow is significantly impaired, as fat malabsorption is common in cholestasis",
+        "Supplement with fat-soluble vitamins (A, D, E, K) as directed by your physician, since cholestasis impairs their absorption",
+        "Avoid alcohol completely to prevent additional hepatobiliary stress",
+        "Maintain adequate calcium and vitamin D intake to protect against cholestasis-related osteoporosis"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise (walking, swimming, low-impact aerobics)",
+          "duration": "30 minutes",
+          "frequency": "4-5 times per week",
+          "precautions": "Weight-bearing exercise is important for bone health given vitamin D malabsorption risk; avoid contact sports if coagulopathy is present due to vitamin K malabsorption"
+        }
+      ],
+      "sleep": [
+        "Cholestatic pruritus often worsens at night; discuss antipruritic strategies with your physician (cholestyramine, ursodeoxycholic acid, antihistamines)",
+        "Keep the bedroom cool and use breathable cotton bedding to reduce itch-related sleep disruption",
+        "Aim for 7-8 hours of sleep; consider short-acting sleep aids if pruritus severely impairs sleep"
+      ],
+      "stress": [
+        "Practice calming techniques to manage the psychological impact of chronic pruritus and liver disease",
+        "Mindfulness and cognitive behavioral techniques can help reduce the perception of itch",
+        "Engage in pleasant activities and social support to maintain quality of life"
+      ],
+      "weight": "Maintain a healthy weight; obesity increases the risk of gallstone formation which can worsen cholestatic disease",
+      "smoking": null
+    }
+  },
+
+  "mixed_liver": {
+    "further_tests": [
+      { "test_name": "Viral Hepatitis Serology (HBsAg, Anti-HCV, HAV IgM)", "rationale": "To identify viral hepatitis which commonly presents with mixed hepatocellular and cholestatic injury" },
+      { "test_name": "Liver Ultrasound with Doppler", "rationale": "To assess liver parenchyma, biliary system, and hepatic vasculature for a comprehensive structural evaluation" },
+      { "test_name": "Autoimmune Panel (ANA, ASMA, AMA, IgG, IgM)", "rationale": "Mixed patterns can be seen in autoimmune hepatitis, PBC, and overlap syndromes" },
+      { "test_name": "Drug and Toxin History Review", "rationale": "Drug-induced liver injury (DILI) is one of the most common causes of mixed liver enzyme patterns; systematically review all medications and supplements" },
+      { "test_name": "MRCP or CT Abdomen", "rationale": "If ultrasound is inconclusive, advanced imaging is needed to evaluate biliary and hepatic pathology" },
+      { "test_name": "Serum Albumin, INR, Bilirubin (Total and Direct)", "rationale": "To assess synthetic function and severity of liver disease" }
+    ],
+    "specialist_referral": {
+      "specialist": "Hepatologist / Gastroenterologist",
+      "urgency": "soon",
+      "reason": "Mixed liver injury pattern often indicates complex hepatobiliary disease requiring specialist evaluation and possible liver biopsy",
+      "when_to_refer": "If the etiology is unclear after initial workup, if liver enzymes exceed 3-5x ULN, or if synthetic function is impaired"
+    },
+    "lifestyle": {
+      "diet": [
+        "Abstain from alcohol completely until the cause is determined and liver function stabilizes",
+        "Follow a balanced, liver-supportive diet with emphasis on whole foods, lean protein, fruits, and vegetables",
+        "Avoid hepatotoxic supplements and herbal remedies; discuss all supplements with your physician",
+        "Limit processed foods, excess sugar, and saturated fats to reduce hepatic stress",
+        "Consider moderate coffee consumption (3-4 cups/day) for its hepatoprotective benefits"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise (walking, cycling, swimming)",
+          "duration": "30 minutes",
+          "frequency": "4-5 times per week",
+          "precautions": "Avoid intense exercise during acute liver injury; resume normal activity gradually as enzymes normalize"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night",
+        "Report any sleep-wake cycle disturbances which may indicate hepatic encephalopathy",
+        "Maintain a consistent sleep schedule to support liver regeneration"
+      ],
+      "stress": [
+        "Practice daily stress management techniques: deep breathing, meditation, or gentle yoga",
+        "Seek support from liver disease patient groups or a counselor if managing a chronic diagnosis",
+        "Avoid unnecessary emotional and physical stressors during the evaluation period"
+      ],
+      "weight": "If overweight, aim for gradual weight loss (0.5-1 kg/week) to reduce hepatic steatosis; rapid weight loss can worsen liver function",
+      "smoking": "Smoking cessation is recommended as smoking contributes to hepatic fibrosis progression and increases liver cancer risk"
+    }
+  },
+
+  "dyslipidemia": {
+    "further_tests": [
+      { "test_name": "Fasting Lipid Panel (repeat to confirm)", "rationale": "A repeat fasting lipid panel confirms the diagnosis and provides a reliable baseline for treatment decisions" },
+      { "test_name": "Thyroid Function Tests (TSH)", "rationale": "Hypothyroidism is a common secondary cause of dyslipidemia that is easily treatable" },
+      { "test_name": "Fasting Glucose and HbA1c", "rationale": "Diabetes and prediabetes commonly coexist with dyslipidemia and significantly alter cardiovascular risk" },
+      { "test_name": "Liver Function Tests", "rationale": "Baseline LFTs are needed before starting statin therapy; also screens for hepatic causes of dyslipidemia" },
+      { "test_name": "Lipoprotein(a) [Lp(a)]", "rationale": "Elevated Lp(a) is an independent genetic risk factor for cardiovascular disease and may influence treatment intensity" },
+      { "test_name": "High-Sensitivity CRP (hs-CRP)", "rationale": "Inflammatory marker that aids cardiovascular risk stratification and may support decision to initiate statin therapy" }
+    ],
+    "specialist_referral": {
+      "specialist": "Cardiologist or Lipidologist",
+      "urgency": "routine",
+      "reason": "For cardiovascular risk assessment and optimization of lipid-lowering therapy",
+      "when_to_refer": "If LDL remains above target despite maximally tolerated statin therapy, if statin intolerance is suspected, or if familial hypercholesterolemia is possible"
+    },
+    "lifestyle": {
+      "diet": [
+        "Adopt a heart-healthy diet: Mediterranean or DASH pattern emphasizing fruits, vegetables, whole grains, legumes, nuts, and olive oil",
+        "Reduce saturated fat intake to less than 7% of total calories; limit red meat, full-fat dairy, and tropical oils (coconut, palm)",
+        "Eliminate trans fats completely; avoid partially hydrogenated oils found in some processed and fried foods",
+        "Increase soluble fiber intake (oats, barley, beans, lentils, apples, citrus) to 10-25 g/day which can reduce LDL by 5-15%",
+        "Include plant sterols/stanols (found in fortified margarines and supplements) at 2 g/day for additional LDL reduction"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate-to-vigorous aerobic exercise (brisk walking, jogging, cycling, swimming)",
+          "duration": "30-60 minutes",
+          "frequency": "5-7 days per week (at least 150 minutes moderate or 75 minutes vigorous per week)",
+          "precautions": "Regular aerobic exercise raises HDL and lowers triglycerides; obtain medical clearance if multiple cardiovascular risk factors; start gradually"
+        },
+        {
+          "type": "Resistance training",
+          "duration": "20-30 minutes",
+          "frequency": "2-3 times per week",
+          "precautions": "Complements aerobic exercise for cardiovascular risk reduction; avoid heavy isometric exercises if hypertensive"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night; sleep deprivation worsens lipid profiles",
+        "Treat obstructive sleep apnea if present, as it independently worsens dyslipidemia and cardiovascular risk",
+        "Maintain consistent sleep timing to support metabolic health"
+      ],
+      "stress": [
+        "Practice daily stress management: meditation, yoga, tai chi, or deep breathing for 15-20 minutes",
+        "Chronic psychological stress is associated with elevated LDL and triglycerides through cortisol-mediated pathways",
+        "Prioritize work-life balance and engaging social relationships"
+      ],
+      "weight": "Weight loss of 5-10% if overweight significantly improves lipid profile: reduces LDL and triglycerides while raising HDL",
+      "smoking": "Smoking cessation is essential; smoking lowers HDL, increases LDL oxidation, and dramatically amplifies cardiovascular risk in the context of dyslipidemia"
+    }
+  },
+
+  "severe_hypertriglyceridemia": {
+    "further_tests": [
+      { "test_name": "Repeat Fasting Triglycerides (12-hour fast)", "rationale": "Confirm severely elevated triglycerides with a properly fasting sample; non-fasting states can falsely elevate triglycerides" },
+      { "test_name": "Serum Lipase and Amylase", "rationale": "To evaluate for pancreatitis, which is the major acute risk of severe hypertriglyceridemia (>500 mg/dL)" },
+      { "test_name": "HbA1c and Fasting Glucose", "rationale": "Uncontrolled diabetes is one of the most common secondary causes of severe hypertriglyceridemia" },
+      { "test_name": "Thyroid Function Tests (TSH)", "rationale": "Hypothyroidism can cause or exacerbate hypertriglyceridemia" },
+      { "test_name": "Liver Function Tests", "rationale": "Hepatic steatosis and liver dysfunction can both cause and result from severe hypertriglyceridemia" },
+      { "test_name": "Lipoprotein Electrophoresis", "rationale": "To characterize the lipoprotein pattern and evaluate for familial hyperlipoproteinemia syndromes (e.g., type I, IV, V)" }
+    ],
+    "specialist_referral": {
+      "specialist": "Lipidologist or Endocrinologist",
+      "urgency": "urgent",
+      "reason": "Severe hypertriglyceridemia (>500 mg/dL) carries significant risk of acute pancreatitis and requires urgent pharmacologic management",
+      "when_to_refer": "Immediately if triglycerides exceed 1000 mg/dL or if there are symptoms of pancreatitis (abdominal pain, nausea, vomiting); soon if triglycerides are 500-999 mg/dL"
+    },
+    "lifestyle": {
+      "diet": [
+        "Adopt an extremely low-fat diet (<15% of calories from fat) during the acute phase to rapidly reduce triglycerides and pancreatitis risk",
+        "Eliminate all alcohol completely; alcohol is a potent driver of triglyceride synthesis",
+        "Strictly avoid simple sugars, refined carbohydrates, fruit juices, and sugar-sweetened beverages which raise triglycerides",
+        "Increase omega-3 fatty acid intake: fatty fish (salmon, mackerel, sardines) 3-4 times per week; consider prescription-grade omega-3 supplements (EPA/DHA 2-4 g/day)",
+        "Replace refined grains with whole grains and emphasize non-starchy vegetables, legumes, and lean proteins"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise (brisk walking, cycling, swimming)",
+          "duration": "30-45 minutes",
+          "frequency": "5-7 days per week",
+          "precautions": "Regular aerobic exercise significantly reduces triglycerides; defer vigorous exercise if there are symptoms of pancreatitis; stay well-hydrated"
+        },
+        {
+          "type": "Resistance training",
+          "duration": "20-30 minutes",
+          "frequency": "2-3 times per week",
+          "precautions": "Complements aerobic exercise for triglyceride reduction; standard precautions apply"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night",
+        "Poor sleep quality is associated with elevated triglycerides; address any sleep disorders",
+        "Maintain a consistent sleep-wake schedule"
+      ],
+      "stress": [
+        "Practice stress management daily as cortisol stimulates hepatic triglyceride production",
+        "Engage in mindfulness meditation, deep breathing, or yoga for 15-20 minutes daily",
+        "Ensure adequate relaxation time and avoid chronic overwork"
+      ],
+      "weight": "Weight loss is critically important; even 5% body weight loss can reduce triglycerides by 20-30%. Aim for gradual, sustained weight reduction through diet and exercise.",
+      "smoking": "Smoking cessation is strongly recommended as smoking elevates triglycerides and significantly worsens overall cardiovascular risk"
+    }
+  },
+
+  "hyperkalemia": {
+    "further_tests": [
+      { "test_name": "Repeat Serum Potassium (non-hemolyzed sample)", "rationale": "To confirm true hyperkalemia and exclude pseudohyperkalemia from hemolysis, thrombocytosis, or leukocytosis" },
+      { "test_name": "ECG (12-lead)", "rationale": "Essential to assess for cardiac effects of hyperkalemia: peaked T waves, widened QRS, sine wave pattern, which guide urgency of treatment" },
+      { "test_name": "Renal Function (Creatinine, eGFR)", "rationale": "Impaired renal potassium excretion due to CKD or AKI is the most common cause of hyperkalemia" },
+      { "test_name": "Blood Gas Analysis", "rationale": "To assess for metabolic acidosis which causes transcellular potassium shift and worsens hyperkalemia" },
+      { "test_name": "Serum Aldosterone and Renin", "rationale": "If renal function is normal, hypoaldosteronism (e.g., type IV RTA, adrenal insufficiency) may be the cause" },
+      { "test_name": "Medication Review", "rationale": "ACE inhibitors, ARBs, potassium-sparing diuretics, NSAIDs, and trimethoprim are common iatrogenic causes requiring systematic review" }
+    ],
+    "specialist_referral": {
+      "specialist": "Nephrologist",
+      "urgency": "urgent",
+      "reason": "For urgent management of hyperkalemia and evaluation of the underlying cause, particularly if ECG changes are present",
+      "when_to_refer": "Immediately if potassium exceeds 6.0 mmol/L, if ECG changes are present, or if hyperkalemia is refractory to initial treatment"
+    },
+    "lifestyle": {
+      "diet": [
+        "Restrict dietary potassium to 2,000-3,000 mg/day as directed by your physician",
+        "Limit high-potassium foods: bananas, oranges, potatoes, tomatoes, avocados, spinach, and dried fruits",
+        "Leach potassium from vegetables by soaking cut vegetables in water for 2+ hours before cooking, then discarding the water",
+        "Choose low-potassium alternatives: apples, berries, grapes, cabbage, green beans, and white rice",
+        "Avoid salt substitutes which contain potassium chloride instead of sodium chloride"
+      ],
+      "exercise": [
+        {
+          "type": "Low-to-moderate aerobic exercise (walking, gentle cycling)",
+          "duration": "20-30 minutes",
+          "frequency": "3-5 times per week, once potassium is controlled",
+          "precautions": "Avoid vigorous exercise when potassium is elevated as exercise-induced cell lysis can further raise potassium; avoid exercise if ECG changes are present; medical clearance required"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night",
+        "Report any palpitations, muscle weakness, or tingling at night to your physician immediately",
+        "Maintain adequate hydration as dehydration can concentrate serum potassium"
+      ],
+      "stress": [
+        "Practice calming stress-reduction techniques for 10-15 minutes daily",
+        "Acute stress and catecholamine surges can cause transient potassium shifts; effective stress management helps maintain electrolyte stability",
+        "Seek prompt medical attention for any symptoms of cardiac arrhythmia (palpitations, lightheadedness, syncope)"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  },
+
+  "hypokalemia": {
+    "further_tests": [
+      { "test_name": "Urine Potassium and Urine Potassium-to-Creatinine Ratio", "rationale": "Distinguishes renal potassium wasting (urine K >20 mmol/L) from extrarenal losses (GI losses, inadequate intake)" },
+      { "test_name": "Serum Magnesium", "rationale": "Hypomagnesemia is a common concurrent finding and makes hypokalemia refractory to potassium replacement alone" },
+      { "test_name": "Blood Gas (Arterial or Venous)", "rationale": "To assess acid-base status; metabolic alkalosis is a common cause of hypokalemia; metabolic acidosis with hypokalemia suggests RTA" },
+      { "test_name": "ECG (12-lead)", "rationale": "To assess for cardiac effects: ST depression, T wave flattening, U waves, and risk of arrhythmias" },
+      { "test_name": "Serum Aldosterone and Renin", "rationale": "If renal potassium wasting is confirmed, to evaluate for primary or secondary hyperaldosteronism" },
+      { "test_name": "Thyroid Function Tests", "rationale": "Thyrotoxicosis can cause hypokalemic periodic paralysis, particularly in individuals of Asian descent" }
+    ],
+    "specialist_referral": {
+      "specialist": "Nephrologist or Endocrinologist",
+      "urgency": "soon",
+      "reason": "For evaluation of persistent hypokalemia etiology, particularly if renal potassium wasting or endocrine cause is suspected",
+      "when_to_refer": "Urgently if potassium is below 2.5 mmol/L or symptomatic (muscle weakness, arrhythmia); soon if potassium is persistently 2.5-3.0 mmol/L despite supplementation"
+    },
+    "lifestyle": {
+      "diet": [
+        "Increase potassium-rich foods: bananas, oranges, potatoes, sweet potatoes, spinach, avocados, tomatoes, beans, and yogurt",
+        "Include magnesium-rich foods (nuts, seeds, whole grains, dark chocolate) as magnesium deficiency worsens hypokalemia",
+        "Reduce excessive sodium intake which promotes renal potassium excretion",
+        "Avoid excessive licorice (glycyrrhizin) consumption which can cause potassium wasting",
+        "Stay well-hydrated but avoid excessive water intake which can dilute electrolytes"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise (walking, cycling, swimming)",
+          "duration": "30 minutes",
+          "frequency": "4-5 times per week, once potassium is corrected",
+          "precautions": "Avoid strenuous exercise when potassium is significantly low (<3.0 mmol/L) due to risk of muscle cramps, rhabdomyolysis, and cardiac arrhythmias; ensure adequate potassium intake before and after exercise"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night",
+        "Report nocturnal muscle cramps or palpitations to your physician as these may indicate significant hypokalemia",
+        "Maintain a consistent sleep schedule"
+      ],
+      "stress": [
+        "Practice stress-reduction techniques for 10-15 minutes daily",
+        "Excessive stress and hyperventilation can worsen hypokalemia through respiratory alkalosis",
+        "Stay calm and practice slow, deep breathing if experiencing anxiety or palpitations"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  },
+
+  "hyponatremia": {
+    "further_tests": [
+      { "test_name": "Serum Osmolality", "rationale": "To classify hyponatremia as hypotonic (true), isotonic (pseudohyponatremia), or hypertonic (dilutional, e.g., hyperglycemia)" },
+      { "test_name": "Urine Osmolality", "rationale": "To assess whether the kidneys are appropriately diluting urine (<100 mOsm/kg suggests primary polydipsia) or concentrating inappropriately (>100 suggests SIADH or volume depletion)" },
+      { "test_name": "Urine Sodium", "rationale": "Helps distinguish hypovolemic (<20 mmol/L, extrarenal loss) from euvolemic or hypervolemic (>20 mmol/L, renal/SIADH) causes" },
+      { "test_name": "Thyroid Function Tests (TSH)", "rationale": "Hypothyroidism is a cause of euvolemic hyponatremia that must be excluded before diagnosing SIADH" },
+      { "test_name": "Cortisol (Morning or ACTH Stimulation Test)", "rationale": "Adrenal insufficiency causes euvolemic hyponatremia and must be excluded before diagnosing SIADH" },
+      { "test_name": "Glucose (if not already checked)", "rationale": "Hyperglycemia causes translocational hyponatremia; corrected sodium should be calculated (Na rises ~1.6 mmol/L per 5.6 mmol/L glucose above normal)" }
+    ],
+    "specialist_referral": {
+      "specialist": "Nephrologist or Endocrinologist",
+      "urgency": "urgent",
+      "reason": "For evaluation of hyponatremia etiology and safe correction to prevent osmotic demyelination syndrome",
+      "when_to_refer": "Immediately if sodium is below 120 mmol/L, if there are neurological symptoms (confusion, seizures, obtundation), or if the cause is unclear"
+    },
+    "lifestyle": {
+      "diet": [
+        "Follow fluid restriction as directed by your physician (typically 1-1.5 liters/day for euvolemic hyponatremia/SIADH)",
+        "Increase dietary sodium intake with salt-containing foods if hypovolemic hyponatremia is present (as directed)",
+        "Avoid excessive water intake; be mindful of water content in foods (soups, watermelon, ice cream)",
+        "Maintain adequate protein intake as low protein intake can contribute to hyponatremia by reducing renal solute load"
+      ],
+      "exercise": [
+        {
+          "type": "Light activity (walking, stretching)",
+          "duration": "15-30 minutes",
+          "frequency": "Daily as tolerated",
+          "precautions": "Avoid strenuous exercise and marathon-like activities which can cause exercise-associated hyponatremia; do not overhydrate during exercise; use electrolyte-containing beverages if exercising for >60 minutes"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night",
+        "Report any new confusion, headache, nausea, or dizziness to your physician immediately as these may indicate worsening hyponatremia",
+        "Maintain safety precautions at home if balance or cognition is impaired"
+      ],
+      "stress": [
+        "Practice gentle stress-reduction techniques for 10-15 minutes daily",
+        "Nausea from hyponatremia can be managed with prescribed antiemetics and slow fluid correction",
+        "Seek support from family members who should be aware of warning signs of severe hyponatremia"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  },
+
+  "hypercalcemia": {
+    "further_tests": [
+      { "test_name": "Intact Parathyroid Hormone (iPTH)", "rationale": "The most critical test: elevated PTH indicates primary hyperparathyroidism; suppressed PTH suggests malignancy or other non-PTH-mediated cause" },
+      { "test_name": "Phosphate Level", "rationale": "Low phosphate with elevated calcium and PTH supports primary hyperparathyroidism; normal/high phosphate suggests other causes" },
+      { "test_name": "25-Hydroxyvitamin D and 1,25-Dihydroxyvitamin D", "rationale": "Elevated 1,25-OH vitamin D suggests granulomatous disease (sarcoidosis) or lymphoma; low 25-OH-D is common in primary hyperparathyroidism" },
+      { "test_name": "PTH-related Peptide (PTHrP)", "rationale": "Elevated in humoral hypercalcemia of malignancy (most commonly squamous cell carcinoma, renal cell carcinoma, or breast cancer)" },
+      { "test_name": "Serum Protein Electrophoresis (SPEP) and Free Light Chains", "rationale": "To screen for multiple myeloma, which causes hypercalcemia through osteolytic bone destruction" },
+      { "test_name": "24-Hour Urine Calcium", "rationale": "To distinguish primary hyperparathyroidism (elevated urinary calcium) from familial hypocalciuric hypercalcemia (low urinary calcium), which requires no treatment" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "soon",
+      "reason": "For evaluation and management of hypercalcemia etiology; endocrine surgery referral may be needed for hyperparathyroidism",
+      "when_to_refer": "Urgently if calcium exceeds 3.0 mmol/L (12 mg/dL), if symptomatic (confusion, polyuria, bone pain, renal colic), or if malignancy is suspected"
+    },
+    "lifestyle": {
+      "diet": [
+        "Maintain generous fluid intake (2.5-3 liters/day) to promote renal calcium excretion and prevent nephrolithiasis",
+        "Moderate calcium intake to 800-1000 mg/day; avoid excessive dairy intake but do not severely restrict calcium",
+        "Avoid high-dose vitamin D and calcium supplements unless specifically directed by your physician",
+        "Limit sodium intake as high sodium increases renal calcium excretion but also promotes bone calcium loss",
+        "Reduce intake of foods that may worsen hypercalcemia: excessive dairy, antacids containing calcium"
+      ],
+      "exercise": [
+        {
+          "type": "Weight-bearing aerobic exercise (walking, jogging, dancing)",
+          "duration": "30 minutes",
+          "frequency": "5 times per week",
+          "precautions": "Weight-bearing exercise is essential to promote bone calcium deposition and reduce bone resorption; avoid prolonged immobilization which worsens hypercalcemia; ensure adequate hydration"
+        },
+        {
+          "type": "Resistance training",
+          "duration": "20-30 minutes",
+          "frequency": "2-3 times per week",
+          "precautions": "Promotes bone health; avoid high-impact activities if bone disease or pathologic fractures are present"
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of quality sleep per night",
+        "Report excessive urination at night (nocturia) as this may indicate significant hypercalcemia",
+        "Address any sleep disturbance related to bone pain or psychiatric symptoms of hypercalcemia with your physician"
+      ],
+      "stress": [
+        "Practice stress management techniques for 15 minutes daily: meditation, deep breathing, or gentle yoga",
+        "Hypercalcemia can cause mood changes, anxiety, and depression; seek psychological support if needed",
+        "Stay cognitively active with puzzles, reading, and social interaction; report any confusion or cognitive changes to your physician"
+      ],
+      "weight": null,
+      "smoking": "Smoking cessation is recommended as smoking accelerates bone loss and increases fracture risk, compounding the skeletal effects of hypercalcemia"
+    }
+  },
+
+  "uncontrolled_diabetes": {
+    "further_tests": [
+      { "test_name": "Fasting C-peptide", "rationale": "To assess endogenous insulin production and differentiate Type 1 vs Type 2 diabetes" },
+      { "test_name": "Fasting Insulin", "rationale": "To evaluate insulin resistance and guide treatment decisions" },
+      { "test_name": "Anti-GAD Antibodies", "rationale": "To rule out Latent Autoimmune Diabetes in Adults (LADA), especially relevant at age 50+" },
+      { "test_name": "Urine Microalbumin/Creatinine Ratio", "rationale": "To screen for early diabetic nephropathy" },
+      { "test_name": "Fundoscopy Referral", "rationale": "To screen for diabetic retinopathy — essential with HbA1c > 8%" },
+      { "test_name": "Foot Examination", "rationale": "To screen for peripheral neuropathy and vascular disease" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "urgent",
+      "reason": "HbA1c > 9% indicates severely uncontrolled diabetes requiring urgent treatment intensification",
+      "when_to_refer": "Immediately — do not wait for follow-up labs"
+    },
+    "lifestyle": {
+      "diet": [
+        "Reduce rice portions — switch to millets (ragi, jowar, bajra) as primary grain",
+        "Increase dal and sabzi ratio in meals — aim for half plate vegetables",
+        "Avoid refined carbohydrates (maida, white bread, biscuits, packaged snacks)",
+        "Fruits in moderation — prefer guava, apple, papaya; avoid mango, banana, grapes, chikoo",
+        "Include bitter gourd (karela), fenugreek seeds (methi), and cinnamon — evidence-based glycemic benefits",
+        "Eat protein with every meal (dal, paneer, eggs, chicken, fish) to slow glucose absorption",
+        "Strictly avoid sugary drinks, fruit juices, and sweets"
+      ],
+      "exercise": [
+        {
+          "type": "Brisk walking after meals",
+          "duration": "30-45 minutes",
+          "frequency": "After each major meal or at least twice daily",
+          "precautions": "Start slowly if sedentary. Monitor blood sugar before and after exercise. Carry glucose tablets."
+        },
+        {
+          "type": "Resistance training",
+          "duration": "20-30 minutes",
+          "frequency": "3 times per week",
+          "precautions": "Improves insulin sensitivity. Avoid if blood sugar > 300 mg/dL or if ketones present."
+        }
+      ],
+      "sleep": [
+        "Aim for 7-8 hours of sleep — poor sleep worsens insulin resistance",
+        "Maintain consistent sleep-wake schedule",
+        "Avoid heavy meals within 2 hours of bedtime"
+      ],
+      "stress": [
+        "Practice pranayama or deep breathing for 10-15 minutes daily — reduces cortisol and blood sugar",
+        "Consider yoga — specifically Surya Namaskar and gentle asanas shown to improve glycemic control",
+        "Address work-life balance — chronic stress is a major driver of poor glycemic control"
+      ],
+      "weight": "Target 5-7% body weight loss if overweight — most effective lifestyle intervention for diabetes",
+      "smoking": "If smoking, cessation is critical — smoking worsens all diabetic complications"
+    }
+  },
+
+  "diabetic_nephropathy_signal": {
+    "further_tests": [
+      { "test_name": "Spot Urine Albumin-Creatinine Ratio (ACR)", "rationale": "Quantitative assessment of albuminuria — more sensitive than dipstick protein" },
+      { "test_name": "24-Hour Urine Protein", "rationale": "Gold standard for quantifying proteinuria" },
+      { "test_name": "Repeat Urinalysis in 3 Months", "rationale": "Confirm persistent proteinuria — single sample may be transient" },
+      { "test_name": "Renal Ultrasound", "rationale": "Assess kidney size and structure — rule out obstructive causes" },
+      { "test_name": "Serum Cystatin C", "rationale": "More accurate GFR estimation than creatinine-based eGFR" }
+    ],
+    "specialist_referral": {
+      "specialist": "Nephrologist",
+      "urgency": "soon",
+      "reason": "Proteinuria in a diabetic patient requires nephrology evaluation to stage kidney disease and optimize renoprotective therapy",
+      "when_to_refer": "Within 2-4 weeks — sooner if eGFR declining or heavy proteinuria"
+    },
+    "lifestyle": {
+      "diet": [
+        "Strict blood pressure control target <130/80 mmHg — most important intervention",
+        "Reduce salt intake to <5g/day (avoid papad, pickles, processed foods, excessive namkeen)",
+        "Adequate hydration — 2-3 liters water daily unless fluid restricted",
+        "Moderate protein intake (0.8g/kg/day) — avoid high-protein diets",
+        "Continue all diabetes dietary modifications"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate walking",
+          "duration": "30 minutes",
+          "frequency": "Daily",
+          "precautions": "Avoid dehydration. Maintain blood pressure control."
+        }
+      ],
+      "sleep": [
+        "Maintain 7-8 hours sleep — essential for blood pressure regulation"
+      ],
+      "stress": [
+        "Blood pressure monitoring at home — stress elevates BP which worsens nephropathy"
+      ],
+      "weight": null,
+      "smoking": "Absolute cessation — smoking accelerates diabetic kidney disease progression"
+    }
+  },
+
+  "glycosuria": {
+    "further_tests": [
+      { "test_name": "Fasting Blood Glucose", "rationale": "Confirm hyperglycemia as cause of glycosuria" },
+      { "test_name": "HbA1c", "rationale": "Assess long-term glycemic control" },
+      { "test_name": "Renal Function Panel", "rationale": "Rule out renal glycosuria if blood glucose is normal" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "soon",
+      "reason": "Glycosuria with elevated blood glucose indicates need for diabetes management optimization",
+      "when_to_refer": "Within 1-2 weeks"
+    },
+    "lifestyle": {
+      "diet": [
+        "Follow diabetes diet modifications — glycosuria indicates blood glucose exceeding 180 mg/dL"
+      ],
+      "exercise": [
+        {
+          "type": "Post-meal walking",
+          "duration": "20-30 minutes",
+          "frequency": "After each meal",
+          "precautions": "Helps reduce post-prandial glucose spikes that cause glycosuria"
+        }
+      ],
+      "sleep": [
+        "Regular sleep schedule to optimize insulin sensitivity"
+      ],
+      "stress": [
+        "Stress management to reduce cortisol-driven hyperglycemia"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  },
+
+  "nafld_metabolic_pattern": {
+    "further_tests": [
+      { "test_name": "Hepatitis B Surface Antigen (HBsAg)", "rationale": "Rule out viral hepatitis as cause of transaminase elevation" },
+      { "test_name": "Anti-HCV Antibody", "rationale": "Rule out Hepatitis C" },
+      { "test_name": "Ultrasound Abdomen", "rationale": "Assess for fatty liver — grading of hepatic steatosis" },
+      { "test_name": "FibroScan / Transient Elastography", "rationale": "Non-invasive assessment of liver fibrosis — key prognostic marker" },
+      { "test_name": "Serum Ferritin", "rationale": "Elevated ferritin common in NAFLD; also rules out hemochromatosis" },
+      { "test_name": "ANA (Antinuclear Antibody)", "rationale": "Rule out autoimmune hepatitis if transaminases significantly elevated" }
+    ],
+    "specialist_referral": {
+      "specialist": "Gastroenterologist / Hepatologist",
+      "urgency": "soon",
+      "reason": "Mixed liver injury pattern with metabolic risk factors — needs staging of liver disease and fibrosis assessment",
+      "when_to_refer": "Within 2-4 weeks"
+    },
+    "lifestyle": {
+      "diet": [
+        "Strict alcohol avoidance — even moderate alcohol worsens fatty liver",
+        "Mediterranean diet pattern — proven to reduce hepatic steatosis",
+        "Reduce refined carbohydrates and sugars — primary driver of liver fat",
+        "Increase fiber intake — whole grains, vegetables, legumes",
+        "Coffee 2-3 cups/day — evidence shows hepatoprotective benefits",
+        "Avoid hepatotoxic supplements and limit paracetamol to <2g/day"
+      ],
+      "exercise": [
+        {
+          "type": "Moderate aerobic exercise",
+          "duration": "150 minutes/week minimum",
+          "frequency": "5 days/week",
+          "precautions": "Any form of regular exercise reduces liver fat. Weight loss of 7-10% can resolve NASH."
+        },
+        {
+          "type": "Resistance training",
+          "duration": "20 minutes",
+          "frequency": "2-3 times/week",
+          "precautions": "Reduces intrahepatic fat independent of weight loss"
+        }
+      ],
+      "sleep": [
+        "7-8 hours — sleep apnea is associated with NAFLD progression"
+      ],
+      "stress": [
+        "Stress reduction — cortisol promotes hepatic fat accumulation"
+      ],
+      "weight": "Weight loss of 7-10% body weight is the most effective treatment for NAFLD/NASH — even 3-5% loss reduces steatosis",
+      "smoking": "Cessation recommended — smoking promotes liver fibrosis"
+    }
+  },
+
+  "atherogenic_dyslipidemia": {
+    "further_tests": [
+      { "test_name": "Apolipoprotein B", "rationale": "Better predictor of cardiovascular risk than LDL when triglycerides are elevated" },
+      { "test_name": "Lipoprotein(a) [Lp(a)]", "rationale": "Independent cardiovascular risk factor — test once in lifetime" },
+      { "test_name": "hs-CRP", "rationale": "Assess inflammatory cardiovascular risk" },
+      { "test_name": "Direct LDL Measurement", "rationale": "Calculated LDL unreliable when triglycerides >200 mg/dL — need direct measurement" },
+      { "test_name": "ASCVD Risk Score Calculation", "rationale": "10-year cardiovascular risk assessment to guide statin therapy" },
+      { "test_name": "Repeat Lipid Panel (Fasting) in 3 Months", "rationale": "After lifestyle modifications to assess response" }
+    ],
+    "specialist_referral": {
+      "specialist": "Cardiologist",
+      "urgency": "routine",
+      "reason": "Cardiovascular risk assessment and lipid management optimization",
+      "when_to_refer": "Within 4-6 weeks for comprehensive CV risk assessment"
+    },
+    "lifestyle": {
+      "diet": [
+        "Omega-3 fatty acids — fish oil 2-4g/day for triglyceride reduction, or fatty fish 2-3 times/week",
+        "Reduce refined carbohydrates — primary dietary driver of triglycerides",
+        "Increase soluble fiber — oats, barley, legumes (dal), psyllium (isabgol)",
+        "Avoid trans fats completely — check labels for 'partially hydrogenated'",
+        "Include nuts (almonds, walnuts — 30g/day) — raise HDL and improve lipid ratios",
+        "Limit alcohol — even moderate intake raises triglycerides"
+      ],
+      "exercise": [
+        {
+          "type": "Aerobic exercise",
+          "duration": "40-60 minutes",
+          "frequency": "5 days/week",
+          "precautions": "Most effective non-drug intervention for raising HDL and lowering triglycerides. Consistency matters more than intensity."
+        }
+      ],
+      "sleep": [
+        "7-8 hours — sleep deprivation worsens lipid profile"
+      ],
+      "stress": [
+        "Chronic stress raises triglycerides via cortisol pathway — regular stress management recommended"
+      ],
+      "weight": "Weight loss of 5-10% significantly improves triglycerides and HDL",
+      "smoking": "Cessation critical — smoking lowers HDL and promotes atherosclerosis"
+    }
+  },
+
+  "vitamin_d_insufficiency": {
+    "further_tests": [
+      { "test_name": "Serum Calcium", "rationale": "Assess calcium status — vitamin D is essential for calcium absorption" },
+      { "test_name": "Serum Phosphorus", "rationale": "May be low in significant vitamin D deficiency" },
+      { "test_name": "Intact PTH (Parathyroid Hormone)", "rationale": "Secondary hyperparathyroidism develops in response to vitamin D insufficiency" },
+      { "test_name": "DEXA Scan", "rationale": "If risk factors for osteoporosis present — assess bone mineral density" }
+    ],
+    "specialist_referral": {
+      "specialist": "None needed",
+      "urgency": "routine",
+      "reason": "Can be managed with supplementation by primary care",
+      "when_to_refer": "Refer to endocrinologist only if not responding to supplementation after 3 months"
+    },
+    "lifestyle": {
+      "diet": [
+        "Sun exposure 15-20 minutes daily between 10am-2pm — arms and face uncovered",
+        "Dietary sources: fatty fish (salmon, mackerel), egg yolks, fortified milk and cereals",
+        "Supplementation: Cholecalciferol (Vitamin D3) 60,000 IU once weekly for 8 weeks, then monthly maintenance",
+        "Take vitamin D supplements with a fatty meal for better absorption"
+      ],
+      "exercise": [
+        {
+          "type": "Weight-bearing exercise",
+          "duration": "30 minutes",
+          "frequency": "Daily",
+          "precautions": "Walking, jogging, or stair climbing — essential for bone health alongside vitamin D"
+        }
+      ],
+      "sleep": [
+        "Regular outdoor exposure during daytime helps vitamin D synthesis and sleep-wake cycle"
+      ],
+      "stress": [
+        "Vitamin D deficiency is linked to mood disorders — correction may improve mood"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  },
+
+  "vitamin_d_deficiency": {
+    "further_tests": [
+      { "test_name": "Serum Calcium", "rationale": "Assess calcium status — vitamin D is essential for calcium absorption" },
+      { "test_name": "Serum Phosphorus", "rationale": "May be low in significant vitamin D deficiency" },
+      { "test_name": "Intact PTH (Parathyroid Hormone)", "rationale": "Secondary hyperparathyroidism develops in response to vitamin D insufficiency" },
+      { "test_name": "DEXA Scan", "rationale": "If risk factors for osteoporosis present — assess bone mineral density" },
+      { "test_name": "25-OH Vitamin D recheck in 8 weeks", "rationale": "To monitor response to aggressive supplementation and adjust dosing" }
+    ],
+    "specialist_referral": {
+      "specialist": "Endocrinologist",
+      "urgency": "soon",
+      "reason": "Significant vitamin D deficiency requiring aggressive supplementation and monitoring",
+      "when_to_refer": "Within 2-4 weeks if not responding to supplementation or if complications present"
+    },
+    "lifestyle": {
+      "diet": [
+        "Sun exposure 15-20 minutes daily between 10am-2pm — arms and face uncovered",
+        "Dietary sources: fatty fish (salmon, mackerel), egg yolks, fortified milk and cereals",
+        "Aggressive supplementation: Cholecalciferol 60,000 IU twice weekly for 8 weeks, then weekly maintenance. Recheck levels in 8 weeks.",
+        "Take vitamin D supplements with a fatty meal for better absorption"
+      ],
+      "exercise": [
+        {
+          "type": "Weight-bearing exercise",
+          "duration": "30 minutes",
+          "frequency": "Daily",
+          "precautions": "Walking, jogging, or stair climbing — essential for bone health alongside vitamin D"
+        }
+      ],
+      "sleep": [
+        "Regular outdoor exposure during daytime helps vitamin D synthesis and sleep-wake cycle"
+      ],
+      "stress": [
+        "Vitamin D deficiency is linked to mood disorders — correction may improve mood"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  },
+
+  "mild_eosinophilia": {
+    "further_tests": [
+      { "test_name": "Stool Examination for Ova and Parasites", "rationale": "Parasitic infections are the most common cause of eosinophilia in India" },
+      { "test_name": "Peripheral Blood Smear", "rationale": "Assess eosinophil morphology and rule out atypical cells" },
+      { "test_name": "Serum IgE Total", "rationale": "Elevated in allergic conditions — helps differentiate allergic vs parasitic cause" },
+      { "test_name": "Absolute Eosinophil Count Recheck in 4 Weeks", "rationale": "Determine if eosinophilia is persistent or transient" }
+    ],
+    "specialist_referral": {
+      "specialist": "General Physician",
+      "urgency": "routine",
+      "reason": "Mild eosinophilia workup — usually benign but needs evaluation",
+      "when_to_refer": "If persistent after 3 months or if AEC > 1500 cells/µL"
+    },
+    "lifestyle": {
+      "diet": [
+        "Maintain balanced diet — no specific dietary modifications needed for mild eosinophilia"
+      ],
+      "exercise": [
+        {
+          "type": "Regular moderate exercise",
+          "duration": "30 minutes",
+          "frequency": "Daily",
+          "precautions": "No specific restrictions for mild eosinophilia"
+        }
+      ],
+      "sleep": [
+        "Standard sleep hygiene"
+      ],
+      "stress": [
+        "Stress can exacerbate allergic conditions — mindfulness recommended"
+      ],
+      "weight": null,
+      "smoking": null
+    }
+  }
+}

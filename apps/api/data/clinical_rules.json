@@ -1,0 +1,480 @@
+[
+  {
+    "id": "iron_deficiency_anemia",
+    "name": "Iron Deficiency Anemia",
+    "category": "CBC",
+    "conditions": [
+      { "test": "hemoglobin", "direction": "low" },
+      { "test": "mcv", "direction": "low" },
+      { "test": "ferritin", "direction": "low" }
+    ],
+    "min_match": 3,
+    "severity": "moderate",
+    "interpretation": "Pattern consistent with iron deficiency anemia. Low hemoglobin with microcytosis (low MCV) and depleted iron stores (low ferritin) is the hallmark presentation. Consider dietary causes, chronic blood loss (GI, menstrual), or malabsorption.",
+    "harrison_ref": "Harrison's Ch. 93: Iron Deficiency and Other Hypoproliferative Anemias",
+    "exclude_if": []
+  },
+  {
+    "id": "megaloblastic_anemia",
+    "name": "Megaloblastic Anemia",
+    "category": "CBC",
+    "conditions": [
+      { "test": "hemoglobin", "direction": "low" },
+      { "test": "mcv", "direction": "high" },
+      { "test": "vitamin_b12", "direction": "low" }
+    ],
+    "min_match": 3,
+    "severity": "moderate",
+    "interpretation": "Pattern consistent with megaloblastic anemia due to vitamin B12 deficiency. Macrocytosis (elevated MCV) with low hemoglobin and depleted B12 levels suggests impaired DNA synthesis in erythroid precursors. Evaluate for pernicious anemia, dietary insufficiency, or terminal ileum malabsorption.",
+    "harrison_ref": "Harrison's Ch. 95: Megaloblastic Anemias",
+    "exclude_if": []
+  },
+  {
+    "id": "folate_deficiency",
+    "name": "Folate Deficiency Anemia",
+    "category": "CBC",
+    "conditions": [
+      { "test": "hemoglobin", "direction": "low" },
+      { "test": "mcv", "direction": "high" },
+      { "test": "folate", "direction": "low" }
+    ],
+    "min_match": 3,
+    "severity": "moderate",
+    "interpretation": "Pattern consistent with folate deficiency anemia. Macrocytic anemia (elevated MCV) with depleted folate levels indicates impaired nucleic acid synthesis. Common causes include poor dietary intake, alcoholism, increased demand (pregnancy), and drugs that interfere with folate metabolism (e.g., methotrexate, phenytoin).",
+    "harrison_ref": "Harrison's Ch. 95: Megaloblastic Anemias",
+    "exclude_if": []
+  },
+  {
+    "id": "anemia_chronic_disease",
+    "name": "Anemia of Chronic Disease",
+    "category": "CBC",
+    "conditions": [
+      { "test": "hemoglobin", "direction": "low" },
+      { "test": "serum_iron", "direction": "low" }
+    ],
+    "min_match": 2,
+    "severity": "moderate",
+    "interpretation": "Pattern consistent with anemia of chronic disease (also termed anemia of inflammation). Low hemoglobin with low serum iron but normal-to-elevated ferritin distinguishes this from iron deficiency anemia, reflecting cytokine-mediated iron sequestration rather than true iron depletion. Evaluate for underlying chronic infection, autoimmune disease, or malignancy.",
+    "harrison_ref": "Harrison's Ch. 93: Iron Deficiency and Other Hypoproliferative Anemias",
+    "exclude_if": ["iron_deficiency_anemia"]
+  },
+  {
+    "id": "pancytopenia",
+    "name": "Pancytopenia",
+    "category": "CBC",
+    "conditions": [
+      { "test": "hemoglobin", "direction": "low" },
+      { "test": "wbc", "direction": "low" },
+      { "test": "platelets", "direction": "low" }
+    ],
+    "min_match": 3,
+    "severity": "high",
+    "interpretation": "Pancytopenia detected with simultaneous reduction of all three cell lines: red blood cells, white blood cells, and platelets. This pattern suggests bone marrow failure, marrow infiltration, or peripheral destruction. Urgent evaluation including peripheral smear and consideration of bone marrow biopsy is recommended to rule out aplastic anemia, myelodysplastic syndrome, leukemia, or severe megaloblastic anemia.",
+    "harrison_ref": "Harrison's Ch. 98: Aplastic Anemia, Myelodysplasia, and Related Bone Marrow Failure Syndromes",
+    "exclude_if": []
+  },
+  {
+    "id": "thrombocytopenia",
+    "name": "Severe Thrombocytopenia",
+    "category": "CBC",
+    "conditions": [
+      { "test": "platelets", "direction": "low", "threshold": 50000 }
+    ],
+    "min_match": 1,
+    "severity": "high",
+    "interpretation": "Severe thrombocytopenia detected with platelet count below 50,000/uL, significantly increasing bleeding risk. Spontaneous mucosal bleeding may occur at this level, and counts below 10,000-20,000 carry risk of spontaneous intracranial hemorrhage. Evaluate for immune thrombocytopenic purpura (ITP), thrombotic thrombocytopenic purpura (TTP), drug-induced causes, or bone marrow pathology.",
+    "harrison_ref": "Harrison's Ch. 111: Disorders of Platelets and Vessel Wall",
+    "exclude_if": []
+  },
+  {
+    "id": "ckd_stage3_plus",
+    "name": "Chronic Kidney Disease Stage 3+",
+    "category": "RFT",
+    "conditions": [
+      { "test": "egfr", "direction": "low" },
+      { "test": "creatinine", "direction": "high" }
+    ],
+    "min_match": 2,
+    "severity": "high",
+    "interpretation": "Pattern consistent with chronic kidney disease stage 3 or higher (eGFR < 60 mL/min/1.73m2) with elevated creatinine reflecting reduced glomerular filtration. Sustained reduction in eGFR below 60 for greater than 3 months meets diagnostic criteria for CKD. Evaluate for underlying etiology (diabetes, hypertension, glomerulonephritis) and initiate nephroprotective strategies including ACE inhibitor/ARB therapy and dietary modifications.",
+    "harrison_ref": "Harrison's Ch. 305: Chronic Kidney Disease",
+    "exclude_if": []
+  },
+  {
+    "id": "ckd_with_albuminuria",
+    "name": "CKD with Albuminuria",
+    "category": "RFT",
+    "conditions": [
+      { "test": "egfr", "direction": "low" },
+      { "test": "urine_albumin_cr_ratio", "direction": "high" }
+    ],
+    "min_match": 2,
+    "severity": "high",
+    "interpretation": "Chronic kidney disease with concurrent albuminuria indicates glomerular damage with impaired filtration. Elevated urine albumin-to-creatinine ratio (UACR) in the setting of reduced eGFR significantly increases cardiovascular risk and accelerates CKD progression. Nephrology referral and initiation of SGLT2 inhibitor therapy in addition to RAAS blockade should be strongly considered.",
+    "harrison_ref": "Harrison's Ch. 305: Chronic Kidney Disease",
+    "exclude_if": []
+  },
+  {
+    "id": "acute_kidney_injury",
+    "name": "Acute Kidney Injury",
+    "category": "RFT",
+    "conditions": [
+      { "test": "creatinine", "direction": "high" }
+    ],
+    "min_match": 1,
+    "severity": "critical",
+    "interpretation": "Elevated creatinine detected, raising concern for acute kidney injury (AKI). AKI is definitively diagnosed by a rise in serum creatinine of 0.3 mg/dL within 48 hours or 1.5 times baseline within 7 days (KDIGO criteria); trend data is essential for confirmation. Immediate evaluation for prerenal (volume depletion, heart failure), intrinsic renal (ATN, glomerulonephritis), or postrenal (obstruction) causes is warranted.",
+    "harrison_ref": "Harrison's Ch. 304: Acute Kidney Injury",
+    "exclude_if": []
+  },
+  {
+    "id": "prediabetes",
+    "name": "Prediabetes",
+    "category": "Diabetes",
+    "conditions": [
+      { "test": "hba1c", "direction": "borderline_high", "threshold_low": 5.7, "threshold_high": 6.4 }
+    ],
+    "min_match": 1,
+    "severity": "moderate",
+    "interpretation": "HbA1c in the prediabetic range (5.7-6.4%) indicates impaired glucose regulation and significantly elevated risk for progression to type 2 diabetes mellitus. Annual conversion rate to diabetes is approximately 5-10% without intervention. Structured lifestyle modification with weight loss of 7% and 150 minutes/week of moderate exercise has been shown to reduce progression risk by 58%.",
+    "harrison_ref": "Harrison's Ch. 396: Diabetes Mellitus: Diagnosis, Classification, and Pathophysiology",
+    "exclude_if": ["diabetes_mellitus"]
+  },
+  {
+    "id": "diabetes_mellitus",
+    "name": "Diabetes Mellitus",
+    "category": "Diabetes",
+    "conditions": [
+      { "test": "hba1c", "direction": "high", "threshold": 6.5 },
+      { "test": "fasting_glucose", "direction": "high", "threshold": 126 }
+    ],
+    "min_match": 1,
+    "severity": "high",
+    "interpretation": "Laboratory values meet diagnostic criteria for diabetes mellitus (HbA1c >= 6.5% or fasting plasma glucose >= 126 mg/dL). Confirmation with a repeat test on a separate day is recommended in the absence of unequivocal hyperglycemia symptoms. Comprehensive metabolic evaluation including lipid panel, renal function, and retinal screening should be initiated along with individualized glycemic management.",
+    "harrison_ref": "Harrison's Ch. 396: Diabetes Mellitus: Diagnosis, Classification, and Pathophysiology",
+    "exclude_if": []
+  },
+  {
+    "id": "insulin_resistance",
+    "name": "Insulin Resistance",
+    "category": "Diabetes",
+    "conditions": [
+      { "test": "fasting_insulin", "direction": "high" },
+      { "test": "fasting_glucose", "direction": "high" },
+      { "test": "triglycerides", "direction": "high" }
+    ],
+    "min_match": 2,
+    "severity": "moderate",
+    "interpretation": "Pattern suggests insulin resistance with hyperinsulinemia, elevated fasting glucose, and/or hypertriglyceridemia. Insulin resistance is a central pathophysiologic driver of metabolic syndrome, type 2 diabetes, and cardiovascular disease. Weight reduction, exercise, and dietary modification targeting reduced refined carbohydrate intake are first-line interventions; metformin may be considered in high-risk individuals.",
+    "harrison_ref": "Harrison's Ch. 396: Diabetes Mellitus: Diagnosis, Classification, and Pathophysiology",
+    "exclude_if": []
+  },
+  {
+    "id": "metabolic_syndrome",
+    "name": "Metabolic Syndrome",
+    "category": "Diabetes",
+    "conditions": [
+      { "test": "triglycerides", "direction": "high", "threshold": 150 },
+      { "test": "hdl", "direction": "low" },
+      { "test": "fasting_glucose", "direction": "high", "threshold": 100 }
+    ],
+    "min_match": 2,
+    "severity": "high",
+    "interpretation": "Laboratory findings consistent with metabolic syndrome criteria (NCEP ATP III): elevated triglycerides (>= 150 mg/dL), low HDL cholesterol, and/or impaired fasting glucose (>= 100 mg/dL). Metabolic syndrome confers a 2-fold increased risk of cardiovascular disease and 5-fold increased risk of type 2 diabetes. Aggressive lifestyle intervention with consideration of pharmacotherapy for individual components is recommended.",
+    "harrison_ref": "Harrison's Ch. 401: The Metabolic Syndrome",
+    "exclude_if": []
+  },
+  {
+    "id": "primary_hypothyroidism",
+    "name": "Primary Hypothyroidism",
+    "category": "Thyroid",
+    "conditions": [
+      { "test": "tsh", "direction": "high" },
+      { "test": "free_t4", "direction": "low" }
+    ],
+    "min_match": 2,
+    "severity": "moderate",
+    "interpretation": "Elevated TSH with low free T4 is diagnostic of primary hypothyroidism, indicating thyroid gland failure with appropriate pituitary compensation. Hashimoto's thyroiditis (chronic autoimmune thyroiditis) is the most common cause in iodine-sufficient populations. Levothyroxine replacement therapy should be initiated with dose titration guided by TSH monitoring at 6-8 week intervals.",
+    "harrison_ref": "Harrison's Ch. 375: Disorders of the Thyroid Gland",
+    "exclude_if": []
+  },
+  {
+    "id": "hyperthyroidism",
+    "name": "Hyperthyroidism",
+    "category": "Thyroid",
+    "conditions": [
+      { "test": "tsh", "direction": "low" },
+      { "test": "free_t4", "direction": "high" }
+    ],
+    "min_match": 2,
+    "severity": "high",
+    "interpretation": "Suppressed TSH with elevated free T4 confirms overt hyperthyroidism. Graves' disease is the most common etiology, but toxic multinodular goiter and toxic adenoma must also be considered. Urgent treatment with beta-blockers for symptom control and antithyroid drugs (methimazole or propylthiouracil) is indicated; radioactive iodine uptake scan should be performed to determine the underlying etiology.",
+    "harrison_ref": "Harrison's Ch. 375: Disorders of the Thyroid Gland",
+    "exclude_if": []
+  },
+  {
+    "id": "subclinical_hypothyroidism",
+    "name": "Subclinical Hypothyroidism",
+    "category": "Thyroid",
+    "conditions": [
+      { "test": "tsh", "direction": "high" },
+      { "test": "free_t4", "direction": "normal" }
+    ],
+    "min_match": 2,
+    "severity": "low",
+    "interpretation": "Elevated TSH with normal free T4 defines subclinical hypothyroidism, indicating early thyroid failure with sufficient residual function to maintain euthyroid hormone levels. Treatment with levothyroxine is generally recommended when TSH exceeds 10 mIU/L, or when TSH is between 4.5-10 mIU/L in the presence of symptoms, goiter, or positive anti-TPO antibodies. Repeat testing in 6-12 weeks is recommended to confirm persistence before initiating therapy.",
+    "harrison_ref": "Harrison's Ch. 375: Disorders of the Thyroid Gland",
+    "exclude_if": ["primary_hypothyroidism"]
+  },
+  {
+    "id": "subclinical_hyperthyroidism",
+    "name": "Subclinical Hyperthyroidism",
+    "category": "Thyroid",
+    "conditions": [
+      { "test": "tsh", "direction": "low" },
+      { "test": "free_t4", "direction": "normal" }
+    ],
+    "min_match": 2,
+    "severity": "low",
+    "interpretation": "Low TSH with normal free T4 defines subclinical hyperthyroidism, indicating mild thyroid hormone excess insufficient to elevate peripheral hormone levels. This condition is associated with increased risk of atrial fibrillation (particularly in elderly patients) and accelerated bone loss. Treatment decisions depend on TSH level, patient age, cardiovascular comorbidities, and bone density status.",
+    "harrison_ref": "Harrison's Ch. 375: Disorders of the Thyroid Gland",
+    "exclude_if": ["hyperthyroidism"]
+  },
+  {
+    "id": "hepatocellular_injury",
+    "name": "Hepatocellular Injury",
+    "category": "Liver",
+    "conditions": [
+      { "test": "alt", "direction": "high" },
+      { "test": "ast", "direction": "high" }
+    ],
+    "min_match": 2,
+    "severity": "moderate",
+    "interpretation": "Elevated ALT and AST indicate hepatocellular injury with release of intracellular transaminases into the circulation. The ALT/AST ratio may provide etiologic clues: ALT predominance suggests viral hepatitis or NAFLD, while AST predominance (ratio > 2:1) is characteristic of alcoholic liver disease. Further evaluation with viral hepatitis serologies, autoimmune markers, and hepatic imaging is recommended.",
+    "harrison_ref": "Harrison's Ch. 330: Approach to the Patient with Liver Disease",
+    "exclude_if": []
+  },
+  {
+    "id": "cholestatic_pattern",
+    "name": "Cholestatic Pattern",
+    "category": "Liver",
+    "conditions": [
+      { "test": "alp", "direction": "high" },
+      { "test": "total_bilirubin", "direction": "high" }
+    ],
+    "min_match": 2,
+    "severity": "moderate",
+    "interpretation": "Elevated alkaline phosphatase with hyperbilirubinemia indicates a cholestatic pattern of liver injury, suggesting impaired bile formation or flow. Intrahepatic causes include primary biliary cholangitis, drug-induced cholestasis, and infiltrative diseases, while extrahepatic obstruction (choledocholithiasis, pancreatic mass) must be excluded. Right upper quadrant ultrasonography should be performed urgently to assess for biliary dilatation.",
+    "harrison_ref": "Harrison's Ch. 330: Approach to the Patient with Liver Disease",
+    "exclude_if": []
+  },
+  {
+    "id": "mixed_liver",
+    "name": "Mixed Hepatocellular-Cholestatic Injury",
+    "category": "Liver",
+    "conditions": [
+      { "test": "alt", "direction": "high" },
+      { "test": "ast", "direction": "high" },
+      { "test": "alp", "direction": "high" }
+    ],
+    "min_match": 3,
+    "severity": "high",
+    "interpretation": "Combined elevation of transaminases (ALT, AST) and alkaline phosphatase indicates a mixed hepatocellular-cholestatic pattern of liver injury. This pattern is seen with drug-induced liver injury (most commonly), certain infiltrative processes, and overlap syndromes. Comprehensive evaluation including medication review, viral serologies, autoimmune markers, and cross-sectional hepatic imaging is warranted given the broad differential.",
+    "harrison_ref": "Harrison's Ch. 330: Approach to the Patient with Liver Disease",
+    "exclude_if": ["hepatocellular_injury", "cholestatic_pattern"]
+  },
+  {
+    "id": "dyslipidemia",
+    "name": "Dyslipidemia",
+    "category": "Lipid",
+    "conditions": [
+      { "test": "ldl", "direction": "high", "threshold": 130 },
+      { "test": "total_cholesterol", "direction": "high" },
+      { "test": "triglycerides", "direction": "high" }
+    ],
+    "min_match": 2,
+    "severity": "moderate",
+    "interpretation": "Pattern consistent with dyslipidemia with elevated LDL cholesterol (>= 130 mg/dL) and/or other lipid abnormalities, conferring increased atherosclerotic cardiovascular disease (ASCVD) risk. Risk-benefit assessment using the Pooled Cohort Equations (10-year ASCVD risk) should guide statin therapy decisions. Therapeutic lifestyle changes including dietary modification (reduced saturated fat, increased fiber), regular aerobic exercise, and weight management are foundational interventions.",
+    "harrison_ref": "Harrison's Ch. 400: Disorders of Lipoprotein Metabolism",
+    "exclude_if": []
+  },
+  {
+    "id": "severe_hypertriglyceridemia",
+    "name": "Severe Hypertriglyceridemia",
+    "category": "Lipid",
+    "conditions": [
+      { "test": "triglycerides", "direction": "high", "threshold": 200 }
+    ],
+    "min_match": 1,
+    "severity": "high",
+    "interpretation": "Significantly elevated triglycerides. TG 200-499 mg/dL carries increased cardiovascular risk and may indicate insulin resistance. TG ≥500 mg/dL carries risk of acute pancreatitis — urgent intervention needed. In the context of diabetes, severe hypertriglyceridemia is likely secondary to insulin deficiency/resistance reducing lipoprotein lipase activity.",
+    "harrison_ref": "Harrison's Ch. 400: Disorders of Lipoprotein Metabolism",
+    "exclude_if": []
+  },
+  {
+    "id": "hyperkalemia",
+    "name": "Hyperkalemia",
+    "category": "Electrolyte",
+    "conditions": [
+      { "test": "potassium", "direction": "high", "threshold": 5.0 }
+    ],
+    "min_match": 1,
+    "severity": "high",
+    "interpretation": "Hyperkalemia detected (potassium > 5.0 mEq/L), which poses risk for life-threatening cardiac arrhythmias including ventricular fibrillation and asystole. An ECG should be obtained urgently to assess for peaked T waves, PR prolongation, QRS widening, or sine wave pattern. Common causes include renal insufficiency, potassium-sparing medications (ACE inhibitors, ARBs, spironolactone), acidosis, and specimen hemolysis (pseudohyperkalemia should be excluded).",
+    "harrison_ref": "Harrison's Ch. 49: Fluid and Electrolyte Disturbances",
+    "exclude_if": []
+  },
+  {
+    "id": "hypokalemia",
+    "name": "Hypokalemia",
+    "category": "Electrolyte",
+    "conditions": [
+      { "test": "potassium", "direction": "low", "threshold": 3.5 }
+    ],
+    "min_match": 1,
+    "severity": "high",
+    "interpretation": "Hypokalemia detected (potassium < 3.5 mEq/L), which may cause muscle weakness, cardiac arrhythmias (U waves, QT prolongation, ventricular ectopy), and ileus. An ECG should be obtained to evaluate for arrhythmia. Common causes include diuretic use, GI losses (vomiting, diarrhea), renal tubular acidosis, and hyperaldosteronism; concurrent magnesium level should be checked as hypomagnesemia impairs potassium repletion.",
+    "harrison_ref": "Harrison's Ch. 49: Fluid and Electrolyte Disturbances",
+    "exclude_if": []
+  },
+  {
+    "id": "hyponatremia",
+    "name": "Hyponatremia",
+    "category": "Electrolyte",
+    "conditions": [
+      { "test": "sodium", "direction": "low", "threshold": 136 }
+    ],
+    "min_match": 1,
+    "severity": "high",
+    "interpretation": "Hyponatremia detected (sodium < 136 mEq/L), the most common electrolyte disorder encountered in clinical practice. Classification by volume status (hypovolemic, euvolemic, hypervolemic) and serum/urine osmolality is essential for determining etiology, with SIADH, heart failure, cirrhosis, and thiazide diuretics being leading causes. Correction rate must not exceed 8-10 mEq/L per 24 hours to prevent osmotic demyelination syndrome.",
+    "harrison_ref": "Harrison's Ch. 49: Fluid and Electrolyte Disturbances",
+    "exclude_if": []
+  },
+  {
+    "id": "hypercalcemia",
+    "name": "Hypercalcemia",
+    "category": "Electrolyte",
+    "conditions": [
+      { "test": "calcium", "direction": "high", "threshold": 10.5 }
+    ],
+    "min_match": 1,
+    "severity": "moderate",
+    "interpretation": "Hypercalcemia detected (calcium > 10.5 mg/dL). Primary hyperparathyroidism and malignancy account for approximately 90% of cases. Intact PTH level is the critical next step: elevated PTH suggests primary hyperparathyroidism, while suppressed PTH with hypercalcemia points toward malignancy-associated hypercalcemia (PTHrP-mediated, osteolytic metastases, or excess 1,25-dihydroxyvitamin D). Symptoms may include polyuria, constipation, nephrolithiasis, and altered mental status.",
+    "harrison_ref": "Harrison's Ch. 403: Disorders of the Parathyroid Gland and Calcium Homeostasis",
+    "exclude_if": []
+  },
+  {
+    "id": "uncontrolled_diabetes",
+    "name": "Uncontrolled Diabetes Mellitus",
+    "category": "Diabetes",
+    "conditions": [
+      { "test": "hba1c", "direction": "high", "threshold": 8.0 },
+      { "test": "fasting_glucose", "direction": "high", "threshold": 200 }
+    ],
+    "min_match": 1,
+    "severity": "high",
+    "interpretation": "HbA1c and/or fasting glucose indicate poorly controlled diabetes mellitus. This level of glycemic control significantly increases risk of microvascular complications (retinopathy, nephropathy, neuropathy) and macrovascular events. Urgent treatment intensification and specialist referral recommended.",
+    "harrison_ref": "Harrison's Ch. 403: Diabetes Mellitus: Management and Therapies",
+    "exclude_if": []
+  },
+  {
+    "id": "diabetic_nephropathy_signal",
+    "name": "Diabetic Nephropathy Signal",
+    "category": "Diabetes",
+    "conditions": [
+      { "test": "hba1c", "direction": "high", "threshold": 6.5 },
+      { "test": "fasting_glucose", "direction": "high", "threshold": 126 },
+      { "test": "urine_protein", "direction": "high" }
+    ],
+    "min_match": 2,
+    "severity": "high",
+    "interpretation": "Proteinuria in the setting of diabetes mellitus raises concern for diabetic nephropathy. Protein in urine with elevated glucose markers suggests ongoing renal involvement. Quantitative urine albumin-creatinine ratio and renal function monitoring recommended.",
+    "harrison_ref": "Harrison's Ch. 405: Diabetic Kidney Disease",
+    "exclude_if": []
+  },
+  {
+    "id": "glycosuria",
+    "name": "Glycosuria",
+    "category": "Diabetes",
+    "conditions": [
+      { "test": "urine_glucose", "direction": "high" }
+    ],
+    "min_match": 1,
+    "severity": "moderate",
+    "interpretation": "Glucosuria indicates blood glucose exceeding the renal threshold (~180 mg/dL). In the setting of elevated HbA1c or fasting glucose, this confirms significant hyperglycemia. If blood glucose is normal, consider renal glycosuria.",
+    "harrison_ref": "Harrison's Ch. 403: Diabetes Mellitus",
+    "exclude_if": []
+  },
+  {
+    "id": "nafld_metabolic_pattern",
+    "name": "MASLD / Metabolic Fatty Liver Pattern",
+    "category": "Liver",
+    "conditions": [
+      { "test": "alt", "direction": "high" },
+      { "test": "ggt", "direction": "high" },
+      { "test": "triglycerides", "direction": "high", "threshold": 150 },
+      { "test": "hdl", "direction": "low" },
+      { "test": "hba1c", "direction": "high", "threshold": 5.7 },
+      { "test": "fasting_glucose", "direction": "high", "threshold": 100 }
+    ],
+    "min_match": 3,
+    "severity": "high",
+    "interpretation": "Liver enzyme elevation combined with dyslipidemia and dysglycemia is strongly suggestive of metabolic dysfunction-associated steatotic liver disease (MASLD, formerly NAFLD). This is the hepatic manifestation of metabolic syndrome and is the most common cause of chronic liver disease worldwide.",
+    "harrison_ref": "Harrison's Ch. 337: Evaluation of Liver Biochemical Tests & Ch. 403: Diabetes Mellitus",
+    "exclude_if": []
+  },
+  {
+    "id": "vitamin_d_insufficiency",
+    "name": "Vitamin D Insufficiency",
+    "category": "Vitamins",
+    "conditions": [
+      { "test": "vitamin_d", "direction": "borderline_high", "threshold_low": 10, "threshold_high": 29.9 }
+    ],
+    "min_match": 1,
+    "severity": "low",
+    "interpretation": "Vitamin D level falls in the insufficient range (10-29 ng/mL). Vitamin D insufficiency is associated with impaired calcium absorption, bone mineralization defects, and increased fracture risk. Supplementation with cholecalciferol recommended.",
+    "harrison_ref": "Harrison's Ch. 409: Vitamin D Deficiency and Metabolic Bone Disease",
+    "exclude_if": ["vitamin_d_deficiency"]
+  },
+  {
+    "id": "vitamin_d_deficiency",
+    "name": "Vitamin D Deficiency",
+    "category": "Vitamins",
+    "conditions": [
+      { "test": "vitamin_d", "direction": "low", "threshold": 10 }
+    ],
+    "min_match": 1,
+    "severity": "moderate",
+    "interpretation": "Vitamin D level indicates deficiency (<10 ng/mL). Risk of osteomalacia, secondary hyperparathyroidism, and proximal myopathy. Aggressive supplementation and workup for malabsorption recommended.",
+    "harrison_ref": "Harrison's Ch. 409: Vitamin D Deficiency",
+    "exclude_if": []
+  },
+  {
+    "id": "atherogenic_dyslipidemia",
+    "name": "Atherogenic Dyslipidemia",
+    "category": "Lipid",
+    "conditions": [
+      { "test": "triglycerides", "direction": "high", "threshold": 150 },
+      { "test": "hdl", "direction": "low" }
+    ],
+    "min_match": 2,
+    "severity": "high",
+    "interpretation": "The combination of elevated triglycerides with low HDL defines atherogenic dyslipidemia — a hallmark of insulin resistance and metabolic syndrome. This pattern carries high cardiovascular risk independent of LDL levels. Note: Calculated LDL is unreliable when triglycerides exceed 200 mg/dL; consider direct LDL measurement.",
+    "harrison_ref": "Harrison's Ch. 407: Disorders of Lipoprotein Metabolism",
+    "exclude_if": []
+  },
+  {
+    "id": "mild_eosinophilia",
+    "name": "Mild Eosinophilia",
+    "category": "CBC",
+    "conditions": [
+      { "test": "aec", "direction": "high", "threshold": 400 },
+      { "test": "eosinophils_pct", "direction": "high", "threshold": 6 }
+    ],
+    "min_match": 1,
+    "severity": "low",
+    "interpretation": "Mild eosinophilia noted. Common causes include allergic conditions (rhinitis, asthma, eczema), parasitic infections (common in Indian subcontinent), and drug reactions. If persistent, consider stool examination for ova and parasites.",
+    "harrison_ref": "Harrison's Ch. 61: Disorders of Granulocytes and Monocytes — Eosinophilia",
+    "exclude_if": []
+  }
+]

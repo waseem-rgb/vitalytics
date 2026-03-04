@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+
+# Build outputs
+apps/web/.next/
+apps/web/out/
+
+# Environment files
+.env
+.env.local
+apps/web/.env.local
+apps/api/.env
+
+# Data / persistence
+apps/api/data/chroma_db/
+apps/api/data/analyses/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+coverage/
